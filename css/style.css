@@ -26,8 +26,8 @@ header{
 
 .navbar .navbar__titulo {
     display: inline-block;
-    font-size: 7rem;
-    padding-left: 5rem;
+    font-size: 3.5em;
+    padding-left: 0rem;
     margin: 30px;
     font-family:'Libre Baskerville', serif;;
     color: white;
@@ -53,9 +53,9 @@ header{
 .navbar .menu .menu__link {
     color: #CCC8C8;
     text-decoration: none;
-    font-size:45px;
+    font-size:1.5em;
     padding-right: 7rem;
-    margin: 10px;
+    margin: 5px;
     font-family: 'Gloria Hallelujah', cursive;
     transition-property: color;
     transition-duration:1s ;
@@ -74,21 +74,13 @@ header{
 }
 
 /*Termina el header*/
-
-.background{
-    background-image: url(https://acegif.com/wp-content/uploads/gif/snwflks-38.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container{
     max-width: 100vh;
     margin: 0 auto;
 }
 
 h1{
-    font-size: 11rem;
+    font-size: 8rem;
     text-align: center;
     color: transparent;
     background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
@@ -126,22 +118,22 @@ p{
 }
 
 .img-contenedor1{
-    padding-left: 30px;
-    padding-right: 30px ;
-    padding-top:40px ;
+    padding-left: 0px;
+    padding-right: 0px ;
+    padding-top:0px ;
     padding-bottom:10px ;
 }
 
 .hacha{
     color: white;
-    font-size: 100px;
+    font-size:3em;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
 }
 
 .text_1{
     color: white;
-    font-size: 50px;
+    font-size: 1.7em;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -159,22 +151,22 @@ p{
 }
 
 .img-contenedor2{
-    padding-left: 30px;
-    padding-right: 30px ;
-    padding-top:40px ;
+    padding-left: 0px;
+    padding-right: 0px ;
+    padding-top:0px ;
     padding-bottom:10px ;
 }
 
 .espadas{
     color: white;
-    font-size: 100px;
+    font-size: 3em;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
 }
 
 .text_2{
     color: white;
-    font-size: 50px;
+    font-size: 1.7em;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -199,22 +191,22 @@ p{
 }
 
 .img-contenedor3{
-    padding-left: 30px;
-    padding-right: 30px ;
-    padding-top:40px ;
+    padding-left: 0px;
+    padding-right: 0px ;
+    padding-top:0px ;
     padding-bottom:10px ;
 }
 
 .furia{
     color: white;
-    font-size: 100px;
+    font-size: 3em;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
 }
 
 .text_3{
     color: white;
-    font-size: 50px;
+    font-size: 1.7em;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -234,12 +226,12 @@ footer  {
 
 footer section p { 
     float: right;
-    font-size: 50px;
+    font-size: 1.7em;
     font-family: 'Gloria Hallelujah', cursive;
 }
  footer a { 
     margin: 0;
-    font-size: 50px;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
     font-family: 'Gloria Hallelujah', cursive;
@@ -287,14 +279,14 @@ footer section p {
 }
 
 .nombre{
-    font-size: 6rem;
+    font-size: 2.5em;
     padding-top: 2.5rem;
     color: white;
     font-family: 'Abril Fatface', cursive;
 }
 
 .text__1{
-        font-size: 3rem;
+        font-size: 1.9em;
         padding-top: 70px;
         font-family: 'Indie Flower', cursive;
 }
@@ -330,7 +322,7 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .nombre2{
-    font-size: 6rem;
+    font-size: 2.5em;
     padding-top: 2.5rem;
     color: white;
     font-family: 'Abril Fatface', cursive;
@@ -338,7 +330,7 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .text__2{
-        font-size: 3rem;
+        font-size: 1.9em;
         padding-top: 70px;
         padding-right: 40px;
         font-family: 'Indie Flower', cursive;
@@ -373,14 +365,14 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .nombre3{
-    font-size: 6rem;
+    font-size: 2.5em;
     padding-top: 2.5rem;
     color: white;
     font-family: 'Abril Fatface', cursive;
 }
 
 .text__3{
-        font-size: 3rem;
+        font-size: 1.9em;
         padding-top: 70px;
         padding-right: 50px;
         font-family: 'Indie Flower', cursive;
@@ -417,14 +409,14 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .nombre4{
-    font-size: 6rem;
+    font-size: 2.5em;
     padding-top: 2.5rem;
     color: white;
     font-family: 'Abril Fatface', cursive;
 }
 
 .text__4{
-        font-size: 3rem;
+        font-size: 1.9em;
         padding-top: 70px;
         padding-right: 50px;
         font-family: 'Indie Flower', cursive;
@@ -459,14 +451,14 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .nombre5{
-    font-size: 6rem;
+    font-size: 2.5em;
     padding-top: 2.5rem;
     color: white;
     font-family: 'Abril Fatface', cursive;
 }
 
 .text__5{
-        font-size: 3rem;
+        font-size: 1.9em;
         padding-top: 50px;
         padding-right: 50px;
         font-family: 'Indie Flower', cursive;
@@ -516,7 +508,7 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .text__faye{
-    font-size: 3rem;
+    font-size: 1.9em;
     padding-left:0px ;
     padding-right: 100px;
     padding-top:90px ;
@@ -557,7 +549,7 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .text__atreus{
-    font-size: 3rem;
+    font-size: 1.9em;
     text-align: center;
     padding-left:20px ;
     padding-right:20px ;
@@ -592,7 +584,7 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .text__familia{
-    font-size: 3rem;
+    font-size: 1.9em;
     padding-top: 350px;
     padding-bottom: 350px;
     font-family: 'Indie Flower', cursive;
@@ -674,7 +666,7 @@ to {background-color:black; transform: translateX(0%);}
 
 .sms{
     padding-top: 180px;
-    font-size: 3rem;
+    font-size: 1.5em;
     padding-left: 30px ;
     font-family: 'Permanent Marker', cursive;
     color: black;
@@ -687,14 +679,14 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .cory{
-    font-size: 6rem;
+    font-size: 3em;
     margin-bottom: 30px;
     font-family: 'Abril Fatface', cursive;
     color: black;
 }
 
 .cory_datos{
-    font-size: 3rem;
+    font-size: 1.5em;
     font-family: 'Permanent Marker', cursive;
     color: black;
 }
@@ -706,14 +698,14 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 .david{
-    font-size: 6rem;
+    font-size: 3em;
     margin-bottom: 30px;
     font-family: 'Abril Fatface', cursive;
     color: black;
 }
 
 .david_datos{
-    font-size: 3rem;
+    font-size: 1.5em;
     font-family: 'Permanent Marker', cursive;
     color: black;
 }
