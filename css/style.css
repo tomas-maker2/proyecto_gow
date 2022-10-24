@@ -7,7 +7,6 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.6em;
-    background-color: #000;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -16,7 +15,7 @@ body{
 /*Empieza el header*/
 
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
 .navbar{
@@ -72,6 +71,7 @@ header{
     display: flex;
     align-items: center;
 }
+
 
 /*Termina el header*/
 .container{
@@ -129,6 +129,7 @@ p{
     padding-right: 0px ;
     padding-top:0px ;
     padding-bottom:10px ;
+
 }
 
 .hacha{
@@ -605,7 +606,7 @@ to {background-color:black; transform: translateX(0%);}
 /* Empieza pagina 4 */
 
 .background4{
-    background-image: url(https://wallpapercave.com/wp/wp7553842.jpg);
+    background-image: url(https://i.pinimg.com/originals/b4/d5/59/b4d5590accfc949b67fe3741c335cc98.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -662,14 +663,14 @@ to {background-color:black; transform: translateX(0%);}
 /*Empieza la ultima pagina*/
 
 .background5{
-    background-image: url(https://wallpaperaccess.com/full/762464.jpg);
+    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/ghrqqkbinpetb0jyx4mi.gif);
     /*https://www.teahub.io/photos/full/264-2640657_animated-fire-breathing-dragon-gif-fire-dragon-breath.gif*/
     /*https://i.pinimg.com/originals/76/ca/4f/76ca4f715b013ff2b9dbb713bc1528d4.gif*/
     /**/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    
 }
 
 .titulo__pagina5{
@@ -713,7 +714,7 @@ to {background-color:black; transform: translateX(0%);}
 .bloque3{
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .david{
@@ -728,26 +729,4187 @@ to {background-color:black; transform: translateX(0%);}
     font-family: 'Permanent Marker', cursive;
     color: white;
 }
-
 .bloque4{
-    width: 100%;
-    max-width: 3500px;
-    margin: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,700px);
-    grid-gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
-.bloque4 .box-img2 figure{
-    width: 100%;
-    height: 100%;
+
+/*MEDIA Q MAX-WIDHT 2560*/
+
+@media (max-width:2560px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        flex-direction: row;        
+    }
+    
+    .navbar .navbar__titulo {
+        display: inline-block;
+        font-size: 70px;
+        padding: 15px;
+        margin: 2px;
+        font-family:'Libre Baskerville', serif;;
+        color: white;
+        transition-property: color;
+        transition-duration:3s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar__titulo:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu {
+        display: inline-block;
+    }
+    
+    .navbar .menu .menu__item {
+        display: inline-block;
+        padding: 5px;
+    }
+    .navbar .menu .menu__link {
+        color: #CCC8C8;
+        text-decoration: none;
+        font-size:25px;
+        padding-right:10px;
+        margin: 10px;
+        font-family: 'Gloria Hallelujah', cursive;
+        transition-property: color;
+        transition-duration:1s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar .menu .menu__link:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu  {
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    
+    .contenedor_1{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+    }
+    
+    .contenedor_1:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor1{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+
+    .fotito{
+        width: 900px;
+    }
+    
+    .hacha{
+        color: white;
+        font-size:45px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_1{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .contenedor_2{
+        background-color: rgb(50, 50, 50);
+        width: fit-content;
+    }
+    
+    .contenedor_2:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor2{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+    
+    .espadas{
+        color: white;
+        font-size: 45px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_2{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    .contenedores2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .contenedor_3{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin-bottom: 40px;
+    }
+    
+    .contenedor_3:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor3{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:10px ;
+    }
+    
+    .furia{
+        color: white;
+        font-size: 45px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_3{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    
+    footer  { 
+    background-color: #000000;
+    padding: 10px;
+    color: #CCC8C8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+    footer section p { 
+    float: right;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 0px;
+    }
+    
+    footer a { 
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    /*Termina pagina 1*/
+
+     /*Empieza pagina 2*/
+
+     h1{
+        font-size: 90px;
+        text-align: center;
+        color: transparent;
+        background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+        -webkit-background-clip: text;
+        padding: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 20px;
+        font-family: 'Cinzel', serif;
+    }
+
+    .fotitos2{
+        width: 500px;
+    }
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:30px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion1 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_baldur{
+        padding-left: 170px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-baldur{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre{
+        font-size: 50px;
+        padding-top: 15px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__1{
+            font-size: 23px;
+            padding-top: 10px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 300px;
+        max-width:80%;
+        margin-top:0px;
+        margin-bottom:30px;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion2 {
+    from {background-color: grey; transform: translateX(3000px);}
+    to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_freya{
+        padding-left: 100px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-freya{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre2{
+        font-size: 50px;
+        padding-top: 15px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+        
+    }
+    
+    .text__2{
+            font-size: 23px;
+            padding-top: 10px;
+            padding-right: 10px;
+            font-family: 'Indie Flower', cursive;
+    }
+     
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:30px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion3 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_magni{
+        padding-left: 40px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    
+    .img-magni{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre3{
+        font-size:50px;
+        padding-top: 10px;
+        padding-right: 50px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__3{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 0px;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+     
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 300px;
+        max-width:80%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion4 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_thor{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-thor{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre4{
+        font-size: 50px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__4{
+            font-size: 18px;
+            padding-top: 15px;
+            padding-right: 40px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-bottom: 30px;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion5 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_mimir{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-mimir{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre5{
+        font-size: 50px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__5{
+            font-size: 20px;
+            padding-top: 10px;
+            padding-right: 40px;
+            font-family: 'Indie Flower', cursive;
+    }
+
+    /*Termina pagina 2*/
+
+    /*Empieza pagina 3*/
+
+     .fotitos3{
+        width: 500px;
+    }
+
+    .contenedor_faye{
+        background-color: transparent;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 10px;
+        margin-bottom:30px ;
+        animation-name: animacionfaye;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfaye {
+        0% {transform: translateY(2000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-faye{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    
+    }
+    
+    .text__faye{
+        font-size: 25px;
+        padding-left:0px ;
+        padding-right: 20px;
+        padding-top:80px ;
+        padding-bottom:0 ;
+        padding-left: 5px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_atreus{
+        background-color: transparent;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:30px ;
+        animation-name: animacionatreus;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionatreus {
+        0% {transform: translateY(3000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    
+    .img-atreus{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__atreus{
+        font-size: 25px;
+        text-align: center;
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top:250px ;
+        padding-bottom:0px ;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_familia{
+        background-color: transparent;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:0px ;
+        animation-name: animacionfamilia;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfamilia {
+        0% {transform: translateY(4000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-familia{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__familia{
+        font-size: 25px;
+        padding-top: 220px;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+        padding-left:10px;
+        text-align: center;
+    }
+
+    /*Termina pagina 3*/
+
+    /*Empieza pagina 4*/
+
+
+    .container-img{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,500px);
+        grid-template-rows: repeat(7,400px);
+        grid-gap: 20px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+       /* grid-row-start: 1;
+        grid-row-end: 3;*/
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: span 2;
+
+    }
+
+    /*Termina pagina 4*/
+
+
+    /*Empieza pagina 5*/
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .santa_monica{
+        width: 400px;
+    }
+
+    .sms{
+        padding-top: 90px;
+        font-size: 25px;
+        padding-left: 30px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .cory{
+        font-size:70px;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .cory_datos{
+        font-size: 25px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .david{
+        font-size: 70px;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .david_datos{
+        font-size: 25px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .ps{
+        width: 450px;
+    }
 }
 
-.bloque4 .box-img2 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  
+/*MEDIA Q MAX-WIDTH 1440px*/
+
+@media (max-width:1440px){
+    .navbar{
+        display: flex;
+        align-items: center;
+        flex-direction: row;        
+    }
+    
+    .navbar .navbar__titulo {
+        display: inline-block;
+        font-size: 40px;
+        padding: 15px;
+        margin: 2px;
+        padding-left: 80px;
+        font-family:'Libre Baskerville', serif;;
+        color: white;
+        transition-property: color;
+        transition-duration:3s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar__titulo:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu {
+        display: inline-block;
+    }
+    
+    .navbar .menu .menu__item {
+        display: inline-block;
+        padding: 5px;
+    }
+    .navbar .menu .menu__link {
+        color: #CCC8C8;
+        text-decoration: none;
+        font-size:18px;
+        padding-right:18px;
+        margin: 5px;
+        font-family: 'Gloria Hallelujah', cursive;
+        transition-property: color;
+        transition-duration:1s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar .menu .menu__link:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu  {
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    
+    .contenedor_1{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+    }
+    
+    .contenedor_1:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor1{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+
+    .fotito{
+        width: 800px;
+    }
+    
+    .hacha{
+        color: white;
+        font-size:35px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_1{
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .contenedor_2{
+        background-color: rgb(50, 50, 50);
+        width: fit-content;
+    }
+    
+    .contenedor_2:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor2{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+    
+    .espadas{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_2{
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    .contenedores2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .contenedor_3{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .contenedor_3:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor3{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:10px ;
+    }
+    
+    .furia{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_3{
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    
+    footer  { 
+    background-color: #000000;
+    padding: 10px;
+    color: #CCC8C8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+    footer section p { 
+    float: right;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 0px;
+    }
+    footer a { 
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    /*Termina pagina 1*/
+
+    /*Empieza pagina 2*/
+
+    h1{
+        font-size: 75px;
+        text-align: center;
+        color: transparent;
+        background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+        -webkit-background-clip: text;
+        padding: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 20px;
+        font-family: 'Cinzel', serif;
+    }
+
+    .fotitos2{
+        width: 400px;
+    }
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:30px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion1 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_baldur{
+        padding-left: 50px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-baldur{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__1{
+            font-size: 17px;
+            padding-top: 15px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion2 {
+    from {background-color: grey; transform: translateX(3000px);}
+    to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_freya{
+        padding-left: 30px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-freya{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre2{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+        
+    }
+    
+    .text__2{
+            font-size: 17px;
+            padding-top: 15px;
+            padding-right: 10px;
+            font-family: 'Indie Flower', cursive;
+    }
+     
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:30px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion3 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_magni{
+        padding-left: 40px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    
+    .img-magni{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre3{
+        font-size: 40px;
+        padding-top: 10px;
+        padding-right: 50px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__3{
+        font-size: 14px;
+        padding-top: 15px;
+        padding-left: 0px;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+     
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion4 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_thor{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-thor{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre4{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__4{
+            font-size: 13px;
+            padding-top: 10px;
+            padding-right: 7px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-bottom: 30px;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion5 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_mimir{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-mimir{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre5{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__5{
+            font-size: 15px;
+            padding-top: 10px;
+            padding-right: 3px;
+            font-family: 'Indie Flower', cursive;
+    }
+
+    /*Termina pagina 2*/
+
+    /*Empieza pagina 3*/
+
+    .fotitos3{
+        width: 350px;
+    }
+
+    .contenedor_faye{
+        background-color: transparent;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 10px;
+        margin-bottom:30px ;
+        animation-name: animacionfaye;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfaye {
+        0% {transform: translateY(2000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-faye{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    
+    }
+    
+    .text__faye{
+        font-size: 15px;
+        padding-left:0px ;
+        padding-right: 20px;
+        padding-top:80px ;
+        padding-bottom:0 ;
+        padding-left: 5px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_atreus{
+        background-color: transparent;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:30px ;
+        animation-name: animacionatreus;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionatreus {
+        0% {transform: translateY(3000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    
+    .img-atreus{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__atreus{
+        font-size: 15px;
+        text-align: center;
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top:180px ;
+        padding-bottom:0px ;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_familia{
+        background-color: transparent;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:0px ;
+        animation-name: animacionfamilia;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfamilia {
+        0% {transform: translateY(4000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-familia{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__familia{
+        font-size: 15px;
+        padding-top: 150px;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+        padding-left:10px;
+        text-align: center;
+    }
+
+    /*Termina pagina 3*/
+
+    /*Empieza pagina 4*/
+
+
+    .container-img{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,530px);
+        grid-template-rows: repeat(10,400px);
+        grid-gap: 20px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+       /* grid-row-start: 1;
+        grid-row-end: 3;*/
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+    }
+
+    /*Termina pagina 4*/
+
+
+    /*Empieza pagina 5*/
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .santa_monica{
+        width: 300px;
+    }
+
+    .sms{
+        padding-top: 90px;
+        font-size: 15px;
+        padding-left: 30px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .cory{
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .cory_datos{
+        font-size: 15px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .david{
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .david_datos{
+        font-size: 15px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .ps{
+        width: 350px;
+    }
+}
+
+
+
+
+/*MEDIA Q PARA MAX-WIDTH 1024PX*/
+
+@media (max-width:1024px){
+    
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .contenedor_1{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_1:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor1{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+
+    .fotito{
+        width: 600px;
+    }
+    
+    .hacha{
+        color: white;
+        font-size:30px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_1{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .contenedor_2{
+        background-color: rgb(50, 50, 50);
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_2:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor2{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+    
+    .espadas{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_2{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    .contenedores2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .contenedor_3{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_3:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor3{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:10px ;
+    }
+    
+    .furia{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_3{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    
+footer  { 
+    background-color: #000000;
+    padding: 10px;
+    color: #CCC8C8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer section p { 
+    float: right;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 0px;
+}
+ footer a { 
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+ }
+
+    /*Termina pagina 1*/
+
+    /*Empieza pagina 2*/
+
+    h1{
+        font-size: 75px;
+        text-align: center;
+        color: transparent;
+        background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+        -webkit-background-clip: text;
+        padding: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 20px;
+        font-family: 'Cinzel', serif;
+    }
+
+    .fotitos2{
+        width: 400px;
+    }
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:30px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion1 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_baldur{
+        padding-left: 50px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-baldur{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__1{
+            font-size: 17px;
+            padding-top: 15px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion2 {
+    from {background-color: grey; transform: translateX(3000px);}
+    to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_freya{
+        padding-left: 30px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-freya{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre2{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+        
+    }
+    
+    .text__2{
+            font-size: 17px;
+            padding-top: 15px;
+            padding-right: 10px;
+            font-family: 'Indie Flower', cursive;
+    }
+     
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:30px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion3 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_magni{
+        padding-left: 40px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    
+    .img-magni{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre3{
+        font-size: 40px;
+        padding-top: 10px;
+        padding-right: 50px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__3{
+        font-size: 14px;
+        padding-top: 15px;
+        padding-left: 0px;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+     
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion4 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_thor{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-thor{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre4{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__4{
+            font-size: 13px;
+            padding-top: 10px;
+            padding-right: 7px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-bottom: 30px;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion5 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_mimir{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-mimir{
+        padding-top:10px ;
+        padding-bottom:5px;
+        padding-left:10px ;
+        padding-right:10px ; 
+    }
+    
+    .nombre5{
+        font-size: 40px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__5{
+            font-size: 15px;
+            padding-top: 10px;
+            padding-right: 3px;
+            font-family: 'Indie Flower', cursive;
+    }
+
+    /*Termina pagina 2*/
+
+    /*Empieza pagina 3*/
+
+    .fotitos3{
+        width: 350px;
+    }
+
+    .contenedor_faye{
+        background-color: transparent;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 10px;
+        margin-bottom:30px ;
+        animation-name: animacionfaye;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfaye {
+        0% {transform: translateY(2000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-faye{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    
+    }
+    
+    .text__faye{
+        font-size: 15px;
+        padding-left:0px ;
+        padding-right: 20px;
+        padding-top:80px ;
+        padding-bottom:0 ;
+        padding-left: 5px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_atreus{
+        background-color: transparent;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:30px ;
+        animation-name: animacionatreus;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionatreus {
+        0% {transform: translateY(3000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    
+    .img-atreus{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__atreus{
+        font-size: 15px;
+        text-align: center;
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top:180px ;
+        padding-bottom:0px ;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_familia{
+        background-color: transparent;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:0px ;
+        animation-name: animacionfamilia;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfamilia {
+        0% {transform: translateY(4000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-familia{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__familia{
+        font-size: 15px;
+        padding-top: 150px;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+        padding-left:10px;
+        text-align: center;
+    }
+
+    /*Termina pagina 3*/
+
+    /*Empieza pagina 4*/
+
+
+    .container-img{
+        width: 100%;
+        max-width: 1204px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,450px);
+        grid-template-rows: repeat(10,350px);
+        grid-gap: 15px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+       /* grid-row-start: 1;
+        grid-row-end: 3;*/
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+    }
+
+    /*Termina pagina 4*/
+
+
+    /*Empieza pagina 5*/
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .santa_monica{
+        width: 300px;
+    }
+
+    .sms{
+        padding-top: 90px;
+        font-size: 15px;
+        padding-left: 30px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .cory{
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .cory_datos{
+        font-size: 15px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .david{
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .david_datos{
+        font-size: 15px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .ps{
+        width: 350px;
+    }
+}
+
+
+
+
+
+/*MEDIA Q PARA MAX-WIDHT 768PX*/
+
+@media (max-width:768px){
+   
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .navbar .navbar__titulo {
+        display: inline-block;
+        font-size: 40px;
+        padding-left: 0px;
+        margin: 5px;
+        font-family:'Libre Baskerville', serif;;
+        color: white;
+        transition-property: color;
+        transition-duration:3s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar__titulo:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu {
+        display: inline-block;
+    }
+    
+    .navbar .menu .menu__item {
+        display: inline-block;
+        padding: 5px;
+    }
+    .navbar .menu .menu__link {
+        color: #CCC8C8;
+        text-decoration: none;
+        font-size:20px;
+        padding-right: 0px;
+        margin: 5px;
+        font-family: 'Gloria Hallelujah', cursive;
+        transition-property: color;
+        transition-duration:1s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar .menu .menu__link:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu  {
+        display: flex;
+        align-items: center;
+    }
+    
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .contenedor_1{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_1:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor1{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:2px ;
+    }
+
+    .fotito{
+        width: 400px;
+    }
+    
+    .hacha{
+        color: white;
+        font-size:20px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_1{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .contenedor_2{
+        background-color: rgb(50, 50, 50);
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_2:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor2{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+    
+    .espadas{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_2{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    .contenedores2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .contenedor_3{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_3:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor3{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:10px ;
+    }
+    
+    .furia{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_3{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    
+footer  { 
+    background-color: #000000;
+    padding: 10px;
+    color: #CCC8C8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer section p { 
+    float: right;
+    font-size: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 10px;
+}
+ footer a { 
+    padding-bottom: 15px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+ }
+
+    /*Termina pagina 1*/
+
+    /*Empieza pagina 2*/
+
+    h1{
+        font-size: 60px;
+        text-align: center;
+        color: transparent;
+        background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+        -webkit-background-clip: text;
+        padding: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 20px;
+        font-family: 'Cinzel', serif;
+    }
+
+    .fotitos2{
+        width: 200px;
+    }
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left: 50px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion1 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_baldur{
+        padding-left: 20px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-baldur{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre{
+        font-size: 25px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__1{
+            font-size: 10px;
+            padding-top: 2px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion2 {
+    from {background-color: grey; transform: translateX(3000px);}
+    to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_freya{
+        padding-left: 20px;
+        text-align: center;
+    }
+    
+    .img-freya{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre2{
+        font-size: 25px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+        
+    }
+    
+    .text__2{
+            font-size: 10px;
+            padding-top: 2px;
+            padding-right: 5px;
+            font-family: 'Indie Flower', cursive;
+    }
+     
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 50px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion3 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_magni{
+        padding-left: 10px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-magni{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre3{
+        font-size: 25px;
+        padding-top: 2px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__3{
+        font-size: 8px;
+        padding-top: 2px;
+        padding-left: 40px;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+     
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 200px;
+        max-width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion4 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_thor{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-thor{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre4{
+        font-size: 25px;
+        padding-top: 2px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__4{
+            font-size: 8px;
+            padding-top: 2px;
+            padding-right: 7px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 3rem;
+        max-width: 80%;
+        margin-bottom: 50px;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion5 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_mimir{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-mimir{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre5{
+        font-size: 25px;
+        padding-top: 2px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__5{
+            font-size: 8px;
+            padding-top: 2px;
+            padding-right: 3px;
+            font-family: 'Indie Flower', cursive;
+    }
+
+    /*Termina pagina 2*/
+
+    /*Empieza pagina 3*/
+
+    .fotitos3{
+        width: 200px;
+    }
+
+    .contenedor_faye{
+        background-color: transparent;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-top: 10px;
+        margin-bottom:20px ;
+        animation-name: animacionfaye;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfaye {
+        0% {transform: translateY(2000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-faye{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    
+    }
+    
+    .text__faye{
+        font-size: 8px;
+        padding-left:0px ;
+        padding-right: 30px;
+        padding-top:45px ;
+        padding-bottom:0 ;
+        padding-left: 5px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_atreus{
+        background-color: transparent;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:20px ;
+        animation-name: animacionatreus;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionatreus {
+        0% {transform: translateY(3000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    
+    .img-atreus{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__atreus{
+        font-size: 8px;
+        text-align: center;
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top:100px ;
+        padding-bottom:0px ;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_familia{
+        background-color: transparent;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:0px ;
+        animation-name: animacionfamilia;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfamilia {
+        0% {transform: translateY(4000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-familia{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__familia{
+        font-size: 8px;
+        padding-top: 100px;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+        padding-left:10px;
+        text-align: center;
+    }
+
+    /*Termina pagina 3*/
+
+    /*Empieza pagina 4*/
+
+
+    .container-img{
+        width: 100%;
+        max-width: 768px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(10,200px);
+        grid-gap: 15px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+    }
+
+    /*Termina pagina 4*/
+
+
+    /*Empieza pagina 5*/
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .santa_monica{
+        width: 200px;
+    }
+
+    .sms{
+        padding-top: 60px;
+        font-size: 10px;
+        padding-left: 10px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .cory{
+        font-size: 40px;
+        margin-bottom: 5px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .cory_datos{
+        font-size: 12px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .david{
+        font-size: 40px;
+        margin-bottom: 5px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .david_datos{
+        font-size: 12px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .ps{
+        width: 200px;
+    }
+}
+
+
+
+
+
+/*MEDIA Q MAX-WIDTH 480PX*/
+
+
+@media (max-width:480px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .navbar .navbar__titulo {
+        display: inline-block;
+        font-size: 30px;
+        padding-left: 0px;
+        margin: 5px;
+        font-family:'Libre Baskerville', serif;;
+        color: white;
+        transition-property: color;
+        transition-duration:3s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar__titulo:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu {
+        display: inline-block;
+    }
+    
+    .navbar .menu .menu__item {
+        display: inline-block;
+        padding: 5px;
+    }
+    .navbar .menu .menu__link {
+        color: #CCC8C8;
+        text-decoration: none;
+        font-size:13px;
+        padding-right: 0px;
+        margin: 5px;
+        font-family: 'Gloria Hallelujah', cursive;
+        transition-property: color;
+        transition-duration:1s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar .menu .menu__link:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu  {
+        display: flex;
+        align-items: center;
+    }
+    
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .contenedor_1{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_1:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor1{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:2px ;
+    }
+
+    .fotito{
+        width: 290px;
+    }
+    
+    .hacha{
+        color: white;
+        font-size:20px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_1{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .contenedor_2{
+        background-color: rgb(50, 50, 50);
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_2:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor2{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+    
+    .espadas{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_2{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    .contenedores2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .contenedor_3{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_3:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor3{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:10px ;
+    }
+    
+    .furia{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_3{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    
+footer  { 
+    background-color: #000000;
+    padding: 10px;
+    color: #CCC8C8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer section p { 
+    float: right;
+    font-size: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 10px;
+}
+ footer a { 
+    padding-bottom: 15px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+ }
+
+    /*Termina pagina 1*/
+
+    /*Empieza pagina 2*/
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+        color: transparent;
+        background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+        -webkit-background-clip: text;
+        padding: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 5px;
+        font-family: 'Cinzel', serif;
+    }
+
+    .fotitos2{
+        width: 150px;
+    }
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left: 30px;
+        max-width: 80%;
+        margin-top: 10px;
+        margin-bottom:20px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion1 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_baldur{
+        padding-left: 38px;
+        padding-right: px;
+        text-align: center;
+    }
+    
+    .img-baldur{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre{
+        font-size: 15px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__1{
+            font-size: 7px;
+            padding-top: 10px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 170px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion2 {
+    from {background-color: grey; transform: translateX(3000px);}
+    to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_freya{
+        padding-left: 20px;
+        text-align: center;
+    }
+    
+    .img-freya{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre2{
+        font-size: 15px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+        
+    }
+    
+    .text__2{
+            font-size: 7px;
+            padding-top: 10px;
+            padding-right: 5px;
+            font-family: 'Indie Flower', cursive;
+    }
+     
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 30px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion3 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_magni{
+        padding-left: 10px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-magni{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre3{
+        font-size: 15px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__3{
+        font-size: 7px;
+        padding-top: 5px;
+        padding-left: 40px;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+     
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 170px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion4 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_thor{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-thor{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre4{
+        font-size: 15px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__4{
+            font-size: 6px;
+            padding-top: 5px;
+            padding-right: 7px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 30px;
+        max-width: 80%;
+        margin-bottom: 20px;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion5 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_mimir{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-mimir{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre5{
+        font-size: 15px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__5{
+            font-size: 6px;
+            padding-top: 10px;
+            padding-right: 3px;
+            font-family: 'Indie Flower', cursive;
+    }
+
+    /*Termina pagina 2*/
+
+    /*Empieza pagina 3*/
+
+    .fotitos3{
+        width: 150px;
+    }
+
+    .contenedor_faye{
+        background-color: transparent;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:10px ;
+        animation-name: animacionfaye;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfaye {
+        0% {transform: translateY(2000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-faye{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    
+    }
+    
+    .text__faye{
+        font-size: 6px;
+        padding-left:0px ;
+        padding-right: 30px;
+        padding-top:38px ;
+        padding-bottom:0 ;
+        padding-left: 5px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_atreus{
+        background-color: transparent;
+        display: flex;
+        margin-left: 80px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:10px ;
+        animation-name: animacionatreus;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionatreus {
+        0% {transform: translateY(3000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    
+    .img-atreus{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__atreus{
+        font-size: 6px;
+        text-align: center;
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top:90px ;
+        padding-bottom:0px ;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_familia{
+        background-color: transparent;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:0px ;
+        animation-name: animacionfamilia;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfamilia {
+        0% {transform: translateY(4000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-familia{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__familia{
+        font-size: 6px;
+        padding-top: 90px;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+        padding-left:10px;
+        text-align: center;
+    }
+
+    /*Termina pagina 3*/
+
+    /*Empieza pagina 4*/
+
+
+    .container-img{
+        width: 100%;
+        max-width: 480px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,220px);
+        grid-template-rows: repeat(10,140px);
+        grid-gap: 10px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+    }
+
+    /*Termina pagina 4*/
+
+
+    /*Empieza pagina 5*/
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .santa_monica{
+        width: 150px;
+    }
+
+    .sms{
+        padding-top: 30px;
+        font-size: 9px;
+        padding-left: 10px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .cory{
+        font-size: 30px;
+        margin-bottom: 5px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .cory_datos{
+        font-size: 10px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .david{
+        font-size: 30px;
+        margin-bottom: 5px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .david_datos{
+        font-size: 10px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .ps{
+        width: 150px;
+    }
+}
+
+
+/*MEDIA Q MAX-WIDTH 380PX*/
+
+
+
+
+@media (max-width:380px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .navbar .navbar__titulo {
+        display: inline-block;
+        font-size: 25px;
+        padding-left: 0px;
+        margin: 5px;
+        font-family:'Libre Baskerville', serif;;
+        color: white;
+        transition-property: color;
+        transition-duration:3s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar__titulo:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu {
+        display: inline-block;
+    }
+    
+    .navbar .menu .menu__item {
+        display: inline-block;
+        padding: 5px;
+    }
+    .navbar .menu .menu__link {
+        color: #CCC8C8;
+        text-decoration: none;
+        font-size:10px;
+        padding-right: 0px;
+        margin: 5px;
+        font-family: 'Gloria Hallelujah', cursive;
+        transition-property: color;
+        transition-duration:1s ;
+        transition-timing-function: ease ;
+        transition-delay: 0s ;
+    }
+    
+    .navbar .menu .menu__link:hover{
+        color: red; 
+        cursor: pointer;
+    }
+    
+    .navbar .menu  {
+        display: flex;
+        align-items: center;
+    }
+    
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .contenedor_1{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_1:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor1{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:2px ;
+    }
+
+    .fotito{
+        width: 200px;
+    }
+    
+    .hacha{
+        color: white;
+        font-size:15px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_1{
+        color: white;
+        font-size: 7px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .contenedor_2{
+        background-color: rgb(50, 50, 50);
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_2:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor2{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:5px ;
+    }
+    
+    .espadas{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_2{
+        color: white;
+        font-size: 7px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    .contenedores2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .contenedor_3{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .contenedor_3:hover{
+        background-color: #000;
+    }
+    
+    .img-contenedor3{
+        padding-left: 0px;
+        padding-right: 0px ;
+        padding-top:0px ;
+        padding-bottom:10px ;
+    }
+    
+    .furia{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .text_3{
+        color: white;
+        font-size: 7px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    
+footer  { 
+    background-color: #000000;
+    padding: 10px;
+    color: #CCC8C8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer section p { 
+    float: right;
+    font-size: 8px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 10px;
+}
+ footer a { 
+    padding-bottom: 15px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+ }
+
+    /*Termina pagina 1*/
+
+    /*Empieza pagina 2*/
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: transparent;
+        background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+        -webkit-background-clip: text;
+        padding: 32px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 5px;
+        font-family: 'Cinzel', serif;
+    }
+
+    .fotitos2{
+        width: 100px;
+    }
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left:20px;
+        max-width: 80%;
+        margin-top: 5px;
+        margin-bottom:15px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion1 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_baldur{
+        padding-left: 35px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    
+    .img-baldur{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre{
+        font-size: 10px;
+        padding-top:5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__1{
+            font-size: 5px;
+            padding-top: 5px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 130px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion2 {
+    from {background-color: grey; transform: translateX(3000px);}
+    to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_freya{
+        padding-left: 15px;
+        text-align: center;
+    }
+    
+    .img-freya{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre2{
+        font-size: 10px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__2{
+            font-size: 5px;
+            padding-top: 6px;
+            padding-right: 5px;
+            font-family: 'Indie Flower', cursive;
+    }
+     
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:15px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion3 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+    
+    .text_magni{
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .img-magni{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre3{
+        font-size: 10px;
+        padding-top: 5px;
+        padding-left: 40px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__3{
+        font-size: 5px;
+        padding-top: 5px;
+        padding-left: 40px;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+     
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 130px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion4 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_thor{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-thor{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre4{
+        font-size: 10px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__4{
+            font-size: 5px;
+            padding-top: 2px;
+            padding-right: 7px;
+            font-family: 'Indie Flower', cursive;
+    }
+    
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-bottom: 15px;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacion5 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+    
+    .text_mimir{
+        padding-left: 5px;
+        text-align: center;
+    }
+    
+    .img-mimir{
+        padding-top:5px ;
+        padding-bottom:0px;
+        padding-left:5px ;
+        padding-right:5px ; 
+    }
+    
+    .nombre5{
+        font-size: 10px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    .text__5{
+            font-size:5px;
+            padding-top: 5px;
+            padding-right: 3px;
+            font-family: 'Indie Flower', cursive;
+    }
+
+    /*Termina pagina 2*/
+
+    /*Empieza pagina 3*/
+
+    .fotitos3{
+        width: 100px;
+    }
+
+    .contenedor_faye{
+        background-color: transparent;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:10px ;
+        animation-name: animacionfaye;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfaye {
+        0% {transform: translateY(2000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-faye{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    
+    }
+    
+    .text__faye{
+        font-size: 5px;
+        padding-left:0px ;
+        padding-right: 30px;
+        padding-top:25px ;
+        padding-bottom:0 ;
+        padding-left: 5px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_atreus{
+        background-color: transparent;
+        display: flex;
+        margin-left: 70px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:10px ;
+        animation-name: animacionatreus;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionatreus {
+        0% {transform: translateY(3000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    
+    .img-atreus{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__atreus{
+        font-size: 5px;
+        text-align: center;
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top:60px ;
+        padding-bottom:0px ;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+    
+    .contenedor_familia{
+        background-color: transparent;
+        display: flex;
+        margin-left: 20px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:0px ;
+        animation-name: animacionfamilia;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes animacionfamilia {
+        0% {transform: translateY(4000px);}
+        100% {transform: translateY(0%);}
+    }
+    
+    .img-familia{
+        padding-left:5px ;
+        padding-right:5px ;
+        padding-top: 10px;
+        padding-bottom:5px ;
+    }
+    
+    .text__familia{
+        font-size: 5px;
+        padding-top: 50px;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+        padding-left:10px;
+        text-align: center;
+    }
+
+    /*Termina pagina 3*/
+
+    /*Empieza pagina 4*/
+
+
+    .container-img{
+        width: 100%;
+        max-width: 380px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,180px);
+        grid-template-rows: repeat(10,120px);
+        grid-gap: 10px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+    }
+
+    /*Termina pagina 4*/
+
+
+    /*Empieza pagina 5*/
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+    .santa_monica{
+        width: 100px;
+    }
+
+    .sms{
+        padding-top: 20px;
+        font-size: 5px;
+        padding-left: 5px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .cory{
+        font-size: 20px;
+        margin-bottom:3px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .cory_datos{
+        font-size: 5px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .david{
+        font-size: 20px;
+        margin-bottom: 5px;
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+    }
+    
+    .david_datos{
+        font-size: 5px;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+
+    .ps{
+        width: 100px;
+    }
 }
