@@ -1,0 +1,594 @@
+/*MIXIS*/
+/*NORMALIZE*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.6em;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+h1 {
+  font-size: 8rem;
+  text-align: center;
+  color: transparent;
+  background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+  -webkit-background-clip: text;
+  padding: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+  font-family: 'Cinzel', serif; }
+
+/*HEADER*/
+/*Empieza el header*/
+header {
+  background-color: black; }
+  header .container {
+    max-width: 100vh;
+    margin: 0 auto; }
+  header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: none; }
+    header .navbar .navbar__titulo {
+      display: inline-block;
+      font-size: 3.5em;
+      padding-left: 0rem;
+      margin: 30px;
+      font-family: 'Libre Baskerville', serif;
+      color: white;
+      transition-property: color;
+      transition-duration: 3s;
+      transition-timing-function: ease;
+      transition-delay: 0s; }
+      header .navbar .navbar__titulo:hover {
+        color: red;
+        cursor: pointer; }
+    header .navbar .menu {
+      display: inline-block;
+      display: flex;
+      justify-content: none;
+      align-items: center; }
+      header .navbar .menu .menu__item {
+        display: inline-block;
+        padding: 5px; }
+      header .navbar .menu .menu__link {
+        color: #CCC8C8;
+        text-decoration: none;
+        font-size: 1.5em;
+        padding-right: 7rem;
+        margin: 5px;
+        font-family: 'Gloria Hallelujah', cursive;
+        transition-property: color;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s; }
+        header .navbar .menu .menu__link:hover {
+          color: red;
+          cursor: pointer; }
+
+/*FOOTER*/
+footer {
+  background-color: #000000;
+  padding: 3rem;
+  color: #CCC8C8;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  footer section p {
+    float: right;
+    font-size: 1.7em;
+    font-family: 'Gloria Hallelujah', cursive; }
+  footer a {
+    margin: 0;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive; }
+
+/*INDEX*/
+/*EMPIEZA LA PAGINA 1*/
+.container {
+  max-width: 100vh;
+  margin: 0 auto; }
+
+.background {
+  background-image: url(https://i.gifer.com/TDK0.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contenedores {
+  display: flex;
+  justify-content: space-around;
+  align-items: none; }
+  .contenedores .contenedor_1 {
+    background-color: #323232;
+    width: fit-content;
+    margin: 60px; }
+    .contenedores .contenedor_1:hover {
+      background-color: #000; }
+    .contenedores .contenedor_1 .img-contenedor1 {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 10px; }
+    .contenedores .contenedor_1 .hacha {
+      color: white;
+      font-size: 3em;
+      text-align: center;
+      font-family: 'Permanent Marker', cursive; }
+    .contenedores .contenedor_1 .text_1 {
+      color: white;
+      font-size: 1.7em;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: 'Kanit', sans-serif; }
+  .contenedores .contenedor_2 {
+    background-color: #323232;
+    width: fit-content;
+    margin: 60px; }
+    .contenedores .contenedor_2:hover {
+      background-color: #000; }
+    .contenedores .contenedor_2 .img-contenedor2 {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 10px; }
+    .contenedores .contenedor_2 .espadas {
+      color: white;
+      font-size: 3em;
+      text-align: center;
+      font-family: 'Permanent Marker', cursive; }
+    .contenedores .contenedor_2 .text_2 {
+      color: white;
+      font-size: 1.7em;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: 'Kanit', sans-serif; }
+
+.contenedores2 {
+  display: flex;
+  justify-content: center;
+  align-items: none; }
+  .contenedores2 .contenedor_3 {
+    background-color: #323232;
+    width: fit-content;
+    margin: 60px; }
+    .contenedores2 .contenedor_3:hover {
+      background-color: #000; }
+    .contenedores2 .contenedor_3 .img-contenedor3 {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 10px; }
+    .contenedores2 .contenedor_3 .furia {
+      color: white;
+      font-size: 3em;
+      text-align: center;
+      font-family: 'Permanent Marker', cursive; }
+    .contenedores2 .contenedor_3 .text_3 {
+      color: white;
+      font-size: 1.7em;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: 'Kanit', sans-serif; }
+
+/*DIOSES*/
+.background2 {
+  background-image: url(https://acegif.com/wp-content/uploads/gif/howling-wolf-7.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container {
+  max-width: 100vh;
+  margin: 0 auto; }
+
+.contenedor_baldur {
+  background-color: black;
+  display: flex;
+  margin-left: 3rem;
+  max-width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: animacion1;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacion1 {
+  from {
+    background-color: grey;
+    transform: translateX(-3000px); }
+  to {
+    background-color: black;
+    transform: translateX(0%); } }
+  .contenedor_baldur .img-baldur {
+    padding: 30px; }
+  .contenedor_baldur .text_baldur {
+    padding-left: 7rem;
+    text-align: center; }
+    .contenedor_baldur .text_baldur .nombre {
+      font-size: 2.5em;
+      padding-top: 2.5rem;
+      color: white;
+      font-family: 'Abril Fatface', cursive; }
+    .contenedor_baldur .text_baldur .text__1 {
+      font-size: 1.9em;
+      padding-top: 70px;
+      font-family: 'Indie Flower', cursive;
+      color: white; }
+
+.contenedor_freya {
+  background-color: black;
+  display: flex;
+  margin-left: 400px;
+  max-width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: animacion2;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacion2 {
+  from {
+    background-color: grey;
+    transform: translateX(3000px); }
+  to {
+    background-color: black;
+    transform: translateX(0%); } }
+  .contenedor_freya .img-freya {
+    padding: 30px; }
+  .contenedor_freya .text_freya {
+    padding-left: 7rem;
+    text-align: center; }
+    .contenedor_freya .text_freya .nombre2 {
+      font-size: 2.5em;
+      padding-top: 2.5rem;
+      color: white;
+      font-family: 'Abril Fatface', cursive; }
+    .contenedor_freya .text_freya .text__2 {
+      font-size: 1.9em;
+      padding-top: 70px;
+      padding-right: 40px;
+      font-family: 'Indie Flower', cursive;
+      color: white; }
+
+.contenedor_magni {
+  background-color: black;
+  display: flex;
+  margin-left: 3rem;
+  max-width: 80%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  animation-name: animacion3;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacion3 {
+  from {
+    background-color: grey;
+    transform: translateX(-3000px); }
+  to {
+    background-color: black;
+    transform: translateX(0%); } }
+  .contenedor_magni .img-magni {
+    padding: 30px; }
+  .contenedor_magni .text_magni {
+    padding-left: 7rem;
+    text-align: center; }
+    .contenedor_magni .text_magni .nombre3 {
+      font-size: 2.5em;
+      padding-top: 2.5rem;
+      color: white;
+      font-family: 'Abril Fatface', cursive; }
+    .contenedor_magni .text_magni .text__3 {
+      font-size: 1.9em;
+      padding-top: 70px;
+      padding-right: 50px;
+      font-family: 'Indie Flower', cursive;
+      color: white; }
+
+.contenedor_thor {
+  background-color: black;
+  display: flex;
+  margin-left: 400px;
+  max-width: 80%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  animation-name: animacion4;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacion4 {
+  from {
+    background-color: grey;
+    transform: translateX(3000px); }
+  to {
+    background-color: black;
+    transform: translateX(0%); } }
+  .contenedor_thor .img-thor {
+    padding: 30px; }
+  .contenedor_thor .text_thor {
+    padding-left: 7rem;
+    text-align: center; }
+    .contenedor_thor .text_thor .nombre4 {
+      font-size: 2.5em;
+      padding-top: 2.5rem;
+      color: white;
+      font-family: 'Abril Fatface', cursive; }
+    .contenedor_thor .text_thor .text__4 {
+      font-size: 1.9em;
+      padding-top: 70px;
+      padding-right: 50px;
+      font-family: 'Indie Flower', cursive;
+      color: white; }
+
+.contenedor_mimir {
+  background-color: black;
+  display: flex;
+  margin-left: 3rem;
+  max-width: 80%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  animation-name: animacion5;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacion5 {
+  from {
+    background-color: grey;
+    transform: translateX(-3000px); }
+  to {
+    background-color: black;
+    transform: translateX(0%); } }
+  .contenedor_mimir .img-mimir {
+    padding: 30px; }
+  .contenedor_mimir .text_mimir {
+    padding-left: 7rem;
+    text-align: center; }
+    .contenedor_mimir .text_mimir .nombre5 {
+      font-size: 2.5em;
+      padding-top: 2.5rem;
+      color: white;
+      font-family: 'Abril Fatface', cursive; }
+    .contenedor_mimir .text_mimir .text__5 {
+      font-size: 1.9em;
+      padding-top: 50px;
+      padding-right: 50px;
+      font-family: 'Indie Flower', cursive;
+      color: white; }
+
+/*FAMILIA*/
+.background3 {
+  background-image: url(https://www.global-esports.news/wp-content/uploads/2022/01/Not-all-the-giants-in-God-of-War-are-big.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container {
+  max-width: 100vh;
+  margin: 0 auto; }
+
+.fondo__section3 {
+  background-color: #000; }
+
+.contenedor_faye {
+  background-color: transparent;
+  display: flex;
+  margin-left: 3rem;
+  max-width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: animacionfaye;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacionfaye {
+  0% {
+    transform: translateY(2000px); }
+  100% {
+    transform: translateY(0%); } }
+  .contenedor_faye .img-faye {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+    padding-bottom: 40px; }
+  .contenedor_faye .text__faye {
+    font-size: 2em;
+    padding-left: 0px;
+    padding-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 0;
+    padding-left: 7rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: black; }
+
+.contenedor_atreus {
+  background-color: transparent;
+  display: flex;
+  margin-left: 400px;
+  max-width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: animacionatreus;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacionatreus {
+  0% {
+    transform: translateY(3000px); }
+  100% {
+    transform: translateY(0%); } }
+  .contenedor_atreus .img-atreus {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+    padding-bottom: 40px; }
+  .contenedor_atreus .text__atreus {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    font-family: 'Indie Flower', cursive;
+    color: black; }
+
+.contenedor_familia {
+  background-color: transparent;
+  display: flex;
+  margin-left: 3rem;
+  max-width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: animacionfamilia;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+
+@keyframes animacionfamilia {
+  0% {
+    transform: translateY(4000px); }
+  100% {
+    transform: translateY(0%); } }
+  .contenedor_familia .img-familia {
+    padding: 30px; }
+  .contenedor_familia .text__familia {
+    font-size: 2em;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    padding-left: 7rem;
+    text-align: center; }
+
+/*ARTE*/
+/*EMPIEZA PAGINA 4*/
+.background4 {
+  background-image: url(https://i.pinimg.com/originals/b4/d5/59/b4d5590accfc949b67fe3741c335cc98.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*grid*/
+.container-img {
+  width: 100%;
+  max-width: 3500px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 700px);
+  grid-gap: 3rem; }
+
+.container-img .box-img figure {
+  width: 100%;
+  height: 100%; }
+
+.container-img .box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.container-img .box-img:nth-child(1) {
+  grid-column-start: span 2; }
+
+.container-img .box-img:nth-child(4) {
+  grid-row-start: span 2; }
+
+.container-img .box-img:nth-child(9) {
+  grid-column-start: span 2; }
+
+.container-img .box-img:nth-child(13) {
+  grid-row-start: span 2; }
+
+.container-img .box-img:nth-child(16) {
+  grid-column-start: span 2; }
+
+/*ESTUDIO*/
+.background5 {
+  background-image: url(https://i.kinja-img.com/gawker-media/image/upload/ghrqqkbinpetb0jyx4mi.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.titulo__pagina5 {
+  color: black; }
+
+.bloque1 {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .bloque1 .sms {
+    padding-top: 100px;
+    font-size: 2em;
+    padding-left: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: white; }
+
+.bloque2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .bloque2 .cory {
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: white; }
+  .bloque2 .cory_datos {
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+    color: white; }
+
+.bloque3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px; }
+  .bloque3 .david {
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: white; }
+  .bloque3 .david_datos {
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+    color: white; }
+
+.bloque4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px; }

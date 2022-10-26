@@ -1,0 +1,124 @@
+/*EMPIEZA LA PAGINA 1*/
+
+.container{
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.background{
+    background-image: url(https://i.gifer.com/TDK0.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedores{
+    @include flex(space-around,none);
+
+    .contenedor_1{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 60px;
+
+        &:hover{
+            background-color: #000;
+        }
+
+        .img-contenedor1{
+            padding-left: 0px;
+            padding-right: 0px ;
+            padding-top:0px ;
+            padding-bottom:10px ;
+        
+        }
+    
+        .hacha{
+            color: white;
+            font-size:3em;
+            text-align: center;
+            font-family: 'Permanent Marker', cursive;
+        }
+    
+        .text_1{
+            color: white;
+            font-size: 1.7em;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: 'Kanit', sans-serif;
+        }
+    }
+
+    .contenedor_2{
+        background-color: rgb(50, 50, 50);
+        width: fit-content;
+        margin: 60px;
+
+        &:hover{
+            background-color: #000;
+        }
+
+        .img-contenedor2{
+            padding-left: 0px;
+            padding-right: 0px ;
+            padding-top:0px ;
+            padding-bottom:10px ;
+        }
+        
+        .espadas{
+            color: white;
+            font-size: 3em;
+            text-align: center;
+            font-family: 'Permanent Marker', cursive;
+        }
+        
+        .text_2{
+            color: white;
+            font-size: 1.7em;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: 'Kanit', sans-serif;
+        }
+    }
+}
+
+.contenedores2{
+    @include flex (center,none);
+
+    .contenedor_3{
+        background-color: rgb(50, 50, 50) ;
+        width: fit-content;
+        margin: 60px;
+
+        &:hover{
+            background-color: #000;
+        }
+
+        .img-contenedor3{
+            padding-left: 0px;
+            padding-right: 0px ;
+            padding-top:0px ;
+            padding-bottom:10px ;
+        }
+        
+        .furia{
+            color: white;
+            font-size: 3em;
+            text-align: center;
+            font-family: 'Permanent Marker', cursive;
+        }
+        
+        .text_3{
+            color: white;
+            font-size: 1.7em;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: 'Kanit', sans-serif;
+        }
+    }
+}
+
+
+

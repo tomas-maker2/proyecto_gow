@@ -1,0 +1,118 @@
+.background3{
+    background-image: url(https://www.global-esports.news/wp-content/uploads/2022/01/Not-all-the-giants-in-God-of-War-are-big.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.fondo__section3{
+    background-color: #000;
+}
+
+.contenedor_faye{
+    background-color: transparent;
+    display: flex;
+    @include contenedor (3rem,80%,50px,50px);
+    animation-name: animacionfaye;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacionfaye {
+        0% {transform: translateY(2000px);}
+        100% {transform: translateY(0%);}
+    }
+    .img-faye{
+        padding-left:40px ;
+        padding-right:40px ;
+        padding-top: 45px;
+        padding-bottom:40px ;
+    }
+    
+    .text__faye{
+        font-size: 2em;
+        padding-left:0px ;
+        padding-right: 100px;
+        padding-top:200px ;
+        padding-bottom:0 ;
+        padding-left: 7rem;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+}
+
+.contenedor_atreus{
+    background-color: transparent;
+    display: flex;
+    @include contenedor(400px,80%,50px,50px);
+    animation-name: animacionatreus;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacionatreus {
+        0% {transform: translateY(3000px);}
+        100% {transform: translateY(0%);}
+    }
+
+    .img-atreus{
+        padding-left:40px ;
+        padding-right:40px ;
+        padding-top: 45px;
+        padding-bottom:40px ;
+    }
+
+    .text__atreus{
+        font-size: 2em;
+        text-align: center;
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-top:300px ;
+        padding-bottom:300px ;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+    }
+}
+
+.contenedor_familia{
+    background-color: transparent;
+    display: flex;
+    @include contenedor (3rem,80%,50px,50px);
+    animation-name: animacionfamilia;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacionfamilia {
+        0% {transform: translateY(4000px);}
+        100% {transform: translateY(0%);}
+    }
+
+    .img-familia{
+        padding: 30px;
+    }
+
+    .text__familia{
+        font-size: 2em;
+        padding-top: 350px;
+        padding-bottom: 350px;
+        font-family: 'Indie Flower', cursive;
+        color: black;
+        padding-left: 7rem;
+        text-align: center;
+    }
+}
+
+

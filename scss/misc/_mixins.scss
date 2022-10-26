@@ -1,0 +1,12 @@
+@mixin flex ($jc, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin contenedor ($ml,$mw,$mt,$mb) {
+    margin-left:$ml ;
+    max-width:$mw ;
+    margin-top:$mt ;
+    margin-bottom:$mb ;
+}

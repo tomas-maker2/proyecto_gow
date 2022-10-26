@@ -1,0 +1,218 @@
+.background2{
+    background-image: url(https://acegif.com/wp-content/uploads/gif/howling-wolf-7.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.contenedor_baldur{
+    background-color: black;
+    display: flex;
+    @include contenedor (3rem,80%,50px,50px);
+    animation-name: animacion1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacion1 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+
+    .img-baldur{
+        padding: 30px;
+    }
+
+    .text_baldur{
+        padding-left: 7rem;
+        text-align: center;
+
+        .nombre{
+            font-size: 2.5em;
+            padding-top: 2.5rem;
+            color: white;
+            font-family: 'Abril Fatface', cursive;
+        }
+        
+        .text__1{
+                font-size: 1.9em;
+                padding-top: 70px;
+                font-family: 'Indie Flower', cursive;color: white;
+
+        }
+    }
+}
+
+.contenedor_freya{
+    background-color: black;
+    display: flex;
+    @include contenedor (400px,80%,50px,50px);
+    animation-name: animacion2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacion2 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+
+        .img-freya{
+            padding: 30px;
+        }
+
+        .text_freya{
+            padding-left: 7rem;
+            text-align: center;
+
+            .nombre2{
+                font-size: 2.5em;
+                padding-top: 2.5rem;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+                
+            }
+            
+            .text__2{
+                    font-size: 1.9em;
+                    padding-top: 70px;
+                    padding-right: 40px;
+                    font-family: 'Indie Flower', cursive;
+                    color: white;
+            }
+        }
+
+}
+ 
+.contenedor_magni{
+    background-color: black;
+    display: flex;
+    @include contenedor (3rem,80%,0px,50px);
+    animation-name: animacion3;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacion3 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+    }
+
+    .img-magni{
+        padding: 30px;
+    }
+
+    .text_magni{
+        padding-left: 7rem;
+        text-align: center;
+        .nombre3{
+            font-size: 2.5em;
+            padding-top: 2.5rem;
+            color: white;
+            font-family: 'Abril Fatface', cursive;
+        }
+
+        .text__3{
+            font-size: 1.9em;
+            padding-top: 70px;
+            padding-right: 50px;
+            font-family: 'Indie Flower', cursive;
+            color: white;
+        }
+    
+    }
+}
+ 
+.contenedor_thor{
+    background-color: black;
+    display: flex;
+    @include contenedor (400px,80%,0px,50px);
+    animation-name: animacion4;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacion4 {
+        from {background-color: grey; transform: translateX(3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+
+        .img-thor{
+            padding: 30px;
+        }
+        
+        .text_thor{
+            padding-left: 7rem;
+            text-align: center;
+
+            .nombre4{
+                font-size: 2.5em;
+                padding-top: 2.5rem;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+            }
+            
+            .text__4{
+                    font-size: 1.9em;
+                    padding-top: 70px;
+                    padding-right: 50px;
+                    font-family: 'Indie Flower', cursive;
+                    color: white;
+            }
+        }
+}
+
+.contenedor_mimir{
+    background-color: black;
+    display: flex;
+    @include contenedor (3rem,80%,0px,50px);
+    animation-name: animacion5;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes animacion5 {
+        from {background-color: grey; transform: translateX(-3000px);}
+        to {background-color:black; transform: translateX(0%);}
+        }
+
+        .img-mimir{
+            padding: 30px;
+        }
+        
+        .text_mimir{
+            padding-left: 7rem;
+            text-align: center;
+
+            .nombre5{
+                font-size: 2.5em;
+                padding-top: 2.5rem;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+            }
+            
+            .text__5{
+                    font-size: 1.9em;
+                    padding-top: 50px;
+                    padding-right: 50px;
+                    font-family: 'Indie Flower', cursive;
+                    color: white;
+            }
+        }
+}
+
