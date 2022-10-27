@@ -1,0 +1,4234 @@
+/*EMPIEZA MEDIA QUERIE MAX-WIDTH 2560PX*/
+
+@media (max-width:2560px) {
+    header{
+        background-color: black;
+    
+        .container{
+            max-width: 100vh;
+            margin: 0 auto;
+        }
+    
+        .navbar{
+            display: flex;
+            align-items: center;
+            flex-direction: row;    
+    
+            .navbar__titulo {
+                display: inline-block;
+                font-size: 80px;
+                padding: 15px;
+                margin: 2px;
+                font-family:'Libre Baskerville', serif;;
+                color: white;
+                transition-property: color;
+                transition-duration:3s ;
+                transition-timing-function: ease ;
+                transition-delay: 0s ;
+    
+                &:hover{
+                    color: red; 
+                    cursor: pointer;
+                }  
+            }
+            .menu {
+                display: inline-block;
+                @include flex(none,center);
+    
+                .menu__item {
+                    display: inline-block;
+                    padding: 5px;
+                }
+    
+                .menu__link {
+                    color: #CCC8C8;
+                    text-decoration: none;
+                    font-size:35px;
+                    padding-right:10px;
+                    margin: 10px;
+                    font-family: 'Gloria Hallelujah', cursive;
+                    transition-property: color;
+                    transition-duration:1s ;
+                    transition-timing-function: ease ;
+                    transition-delay: 0s ;
+    
+                    &:hover{
+                        color: red; 
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+        /*TERMINA EL HEADER*/
+
+    .fotito{
+            width: 900px;
+        }
+
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    
+        .contenedor_1{
+            background-color: rgb(50, 50, 50) ;
+            width: fit-content;
+            margin: 60px;
+    
+            &:hover{
+                background-color: #000;
+            }
+    
+            .img-contenedor1{
+                padding-left: 0px;
+                padding-right: 0px ;
+                padding-top:0px ;
+                padding-bottom:5px ;
+            
+            }
+        
+            .hacha{
+                color: white;
+                font-size:55px;
+                text-align: center;
+                font-family: 'Permanent Marker', cursive;
+            }
+        
+            .text_1{
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: 'Kanit', sans-serif;
+            }
+        }
+    
+        .contenedor_2{
+            background-color: rgb(50, 50, 50);
+            width: fit-content;
+            margin: 60px;
+    
+            &:hover{
+                background-color: #000;
+            }
+    
+            .img-contenedor2{
+                padding-left: 0px;
+                padding-right: 0px ;
+                padding-top:0px ;
+                padding-bottom:5px ;
+            }
+            
+            .espadas{
+                color: white;
+                font-size: 55px;
+                text-align: center;
+                font-family: 'Permanent Marker', cursive;
+            }
+            
+            .text_2{
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: 'Kanit', sans-serif;
+            }
+        }
+    }
+    
+    .contenedores2{
+        @include flex (center,none);
+    
+        .contenedor_3{
+            background-color: rgb(50, 50, 50) ;
+            width: fit-content;
+            margin: 60px;
+    
+            &:hover{
+                background-color: #000;
+            }
+    
+            .img-contenedor3{
+                padding-left: 0px;
+                padding-right: 0px ;
+                padding-top:0px ;
+                padding-bottom:5px ;
+            }
+            
+            .furia{
+                color: white;
+                font-size: 55px;
+                text-align: center;
+                font-family: 'Permanent Marker', cursive;
+            }
+            
+            .text_3{
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: 'Kanit', sans-serif;
+            }
+        }
+    }
+
+    /*TERMINA PAGINA 1*/
+
+    footer  { 
+        background-color: #000000;
+        padding: 3rem;
+        color: #CCC8C8;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+        section p { 
+            float: right;
+            font-size: 20PX;
+            font-family: 'Gloria Hallelujah', cursive;
+        }
+    
+        a { 
+            margin: 0;
+            font-size: 20PX;
+            text-decoration: none;
+            color: white;
+            font-family: 'Gloria Hallelujah', cursive;
+         }
+    }
+
+    /*TERMINA EL FOOTER*/
+
+    h1{
+        font-size: 90px;
+        padding-top:30px ;
+        padding-bottom:30px ;
+    }
+
+    .fotitos2{
+        width: 500px;
+    }
+
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:30px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion1 {
+            from {background-color: grey; transform: translateX(-3000px);}
+            to {background-color:black; transform: translateX(0%);}
+        }
+    
+        .img-baldur{
+            padding-left:10px ;
+            padding-right:10px ;
+            padding-top:10px ;
+            padding-bottom:5px ;
+        }
+    
+        .text_baldur{
+            padding-left: 290px;
+            padding-right: 5px;
+            text-align: center;
+    
+            .nombre{
+                font-size: 60px;
+                padding-top: 15px;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+            }
+            
+            .text__1{
+                    font-size: 25px;
+                    padding-top: 10px;
+                    font-family: 'Indie Flower', cursive;color: white;
+    
+            }
+        }
+    }
+
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 300px;
+        max-width:80%;
+        margin-top:0px;
+        margin-bottom:30px;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion2 {
+            from {background-color: grey; transform: translateX(3000px);}
+            to {background-color:black; transform: translateX(0%);}
+            }
+    
+            .img-freya{
+                padding-left:10px ;
+                padding-right:10px ;
+                padding-top:10px ;
+                padding-bottom:5px ;
+            }
+    
+            .text_freya{
+                padding-left: 250px;
+                padding-right: 5px;
+                text-align: center;
+    
+                .nombre2{
+                    font-size: 60px;
+                    padding-top: 15px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                    
+                }
+                
+                .text__2{
+                        font-size: 25px;
+                        padding-top:10px;
+                        padding-right: 10px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                }
+            }
+    
+    }
+
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom:30px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion3 {
+            from {background-color: grey; transform: translateX(-3000px);}
+            to {background-color:black; transform: translateX(0%);}
+        }
+    
+        .img-magni{
+            padding-left:10px ;
+            padding-right:10px ;
+            padding-top:10px ;
+            padding-bottom:5px ;
+        }
+    
+        .text_magni{
+            padding-left: 100px;
+            padding-right: 0px;
+            text-align: center;
+
+            .nombre3{
+                font-size:60px;
+                padding-top: 10px;
+                padding-right: 50px;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+            }
+    
+            .text__3{
+                font-size: 25px;
+                padding-top: 10px;
+                padding-left: 0px;
+                font-family: 'Indie Flower', cursive;
+                color: white;
+            }
+        
+        }
+    }
+    
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 300px;
+        max-width:80%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion4 {
+            from {background-color: grey; transform: translateX(3000px);}
+            to {background-color:black; transform: translateX(0%);}
+            }
+    
+            .img-thor{
+                padding-left:10px ;
+                padding-right:10px ;
+                padding-top:10px ;
+                padding-bottom:5px ;
+            }
+            
+            .text_thor{
+                padding-left: 5px;
+                padding-right: 10px;
+                text-align: center;
+    
+                .nombre4{
+                    font-size: 60px;
+                    padding-top: 10px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                
+                .text__4{
+                        font-size: 20px;
+                        padding-top: 15px;
+                        padding-right: 40px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                }
+            }
+    }
+     
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-bottom: 30px;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion5 {
+            from {background-color: grey; transform: translateX(-3000px);}
+            to {background-color:black; transform: translateX(0%);}
+            }
+    
+            .img-mimir{
+                padding-left:10px ;
+                padding-right:10px ;
+                padding-top:10px ;
+                padding-bottom:5px ;
+            }
+            
+            .text_mimir{
+                padding-left: 40px;
+                text-align: center;
+    
+                .nombre5{
+                    font-size: 60px;
+                    padding-top: 10px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                
+                .text__5{
+                        font-size: 20px;
+                        padding-top: 10px;
+                        padding-right: 40px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                }
+            }
+    }
+    
+        /*TERMINA PAGGINA 2*/
+
+        .fotitos3{
+            width: 500px;
+        }
+
+        .contenedor_faye{
+            background-color: transparent;
+            display: flex;
+            margin-left: 100px;
+            max-width: 80%;
+            margin-top: 10px;
+            margin-bottom:30px ;
+            animation-name: animacionfaye;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacionfaye {
+                0% {transform: translateY(2000px);}
+                100% {transform: translateY(0%);}
+            }
+            .img-faye{
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top: 10px;
+                padding-bottom:5px ;
+            }
+            
+            .text__faye{
+                font-size: 25px;
+                padding-left:0px ;
+                padding-right: 20px;
+                padding-top:80px ;
+                padding-bottom:0 ;
+                padding-left: 5px;
+                text-align: center;
+                font-family: 'Indie Flower', cursive;
+                color: black;
+            }
+        }
+        
+        .contenedor_atreus{
+            background-color: transparent;
+            display: flex;
+            margin-left: 200px;
+            max-width: 80%;
+            margin-top: 0px;
+            margin-bottom:30px ;
+            animation-name: animacionatreus;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacionatreus {
+                0% {transform: translateY(3000px);}
+                100% {transform: translateY(0%);}
+            }
+        
+            .img-atreus{
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top: 10px;
+                padding-bottom:5px ;
+            }
+        
+            .text__atreus{
+                font-size: 25px;
+                text-align: center;
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top:250px ;
+                padding-bottom:0px ;
+                font-family: 'Indie Flower', cursive;
+                color: black;
+            }
+        }
+        
+        .contenedor_familia{
+            background-color: transparent;
+            display: flex;
+            margin-left: 100px;
+            max-width: 80%;
+            margin-top: 0px;
+            margin-bottom:0px ;
+            animation-name: animacionfamilia;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacionfamilia {
+                0% {transform: translateY(4000px);}
+                100% {transform: translateY(0%);}
+            }
+        
+            .img-familia{
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top: 10px;
+                padding-bottom:5px ;
+            }
+        
+            .text__familia{
+                font-size: 25px;
+                padding-top: 220px;
+                font-family: 'Indie Flower', cursive;
+                color: black;
+                padding-left:10px;
+                text-align: center;
+            }
+        }
+        
+    /*TERMINA PAGIINA 3*/
+
+    .container-img{
+        width: 100%;
+        max-width: 2560px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,500px);
+        grid-template-rows: repeat(7,400px);
+        grid-gap: 20px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+       /* grid-row-start: 1;
+        grid-row-end: 3;*/
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: span 2;
+
+    }
+
+    /*TERMINA PAGINA 4*/
+    
+    .santa_monica{
+        width: 400px;
+    }
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    
+        .sms{
+            padding-top: 90px;
+        font-size: 25px;
+        padding-left: 30px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        }
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    
+        .cory{
+            font-size: 70px;
+            margin-bottom: 10px;
+            font-family: 'Abril Fatface', cursive;
+            color: white;
+        }
+    
+        .cory_datos{
+            font-size: 25px;
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+        }
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    
+        .david{
+            font-size: 70px;
+            margin-bottom: 10px;
+            font-family: 'Abril Fatface', cursive;
+            color: white;
+        }
+    
+        .david_datos{
+            font-size: 25px;
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+        }
+    }
+    
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .ps{
+        width: 450px;
+    }
+}
+
+
+
+/*MEDIA Q MAX-WIDTH 1440px*/
+
+@media (max-width:1440px){
+    header{
+        background-color: black;
+    
+        .container{
+            max-width: 100vh;
+            margin: 0 auto;
+        }
+    
+        .navbar{
+            @include flex (space-between,none);
+    
+            .navbar__titulo {
+                display: inline-block;
+                font-size: 40px;
+                padding-left: 0rem;
+                margin: 30px;
+                font-family:'Libre Baskerville', serif;;
+                color: white;
+                transition-property: color;
+                transition-duration:3s ;
+                transition-timing-function: ease ;
+                transition-delay: 0s ;
+    
+                &:hover{
+                    color: red; 
+                    cursor: pointer;
+                }  
+            }
+            .menu {
+                display: inline-block;
+                @include flex(none,center);
+    
+                .menu__item {
+                    display: inline-block;
+                    padding: 5px;
+                }
+    
+                .menu__link {
+                    color: #CCC8C8;
+                    text-decoration: none;
+                    font-size:20px;
+                    padding-right: 10px;
+                    margin: 3px;
+                    font-family: 'Gloria Hallelujah', cursive;
+                    transition-property: color;
+                    transition-duration:1s ;
+                    transition-timing-function: ease ;
+                    transition-delay: 0s ;
+    
+                    &:hover{
+                        color: red; 
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+        /*TERMINA EL HEADER*/
+
+    .contenedores{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        .contenedor_1{
+            background-color: rgb(50, 50, 50) ;
+            width: fit-content;
+            margin: 60px;
+    
+            &:hover{
+                background-color: #000;
+            }
+    
+            .img-contenedor1{
+                padding-left: 0px;
+                padding-right: 0px ;
+                padding-top:0px ;
+                padding-bottom:10px ;
+            
+            }
+        
+            .hacha{
+                color: white;
+                font-size:50px;
+                text-align: center;
+                font-family: 'Permanent Marker', cursive;
+            }
+        
+            .text_1{
+                color: white;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: 'Kanit', sans-serif;
+            }
+        }
+    
+        .contenedor_2{
+            background-color: rgb(50, 50, 50);
+            width: fit-content;
+            margin: 60px;
+    
+            &:hover{
+                background-color: #000;
+            }
+    
+            .img-contenedor2{
+                padding-left: 0px;
+                padding-right: 0px ;
+                padding-top:0px ;
+                padding-bottom:10px ;
+            }
+            
+            .espadas{
+                color: white;
+                font-size: 50px;
+                text-align: center;
+                font-family: 'Permanent Marker', cursive;
+            }
+            
+            .text_2{
+                color: white;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: 'Kanit', sans-serif;
+            }
+        }
+    }
+    
+    .contenedores2{
+        @include flex (center,none);
+    
+        .contenedor_3{
+            background-color: rgb(50, 50, 50) ;
+            width: fit-content;
+            margin: 60px;
+    
+            &:hover{
+                background-color: #000;
+            }
+    
+            .img-contenedor3{
+                padding-left: 0px;
+                padding-right: 0px ;
+                padding-top:0px ;
+                padding-bottom:10px ;
+            }
+            
+            .furia{
+                color: white;
+                font-size: 50px;
+                text-align: center;
+                font-family: 'Permanent Marker', cursive;
+            }
+            
+            .text_3{
+                color: white;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: 'Kanit', sans-serif;
+            }
+        }
+    }
+
+    /*TERMINA PAGINA 1*/
+
+    footer  { 
+        background-color: #000000;
+        padding: 40px;
+        color: #CCC8C8;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+        section p { 
+            float: right;
+            font-size: 20PX;
+            font-family: 'Gloria Hallelujah', cursive;
+            margin-top: 10px;
+        }
+    
+        a { 
+            margin: 0;
+            font-size: 20PX;
+            text-decoration: none;
+            color: white;
+            font-family: 'Gloria Hallelujah', cursive;
+         }
+    }
+
+    /*TERMINA EL FOOTER*/
+
+    h1{
+        font-size: 75px;
+        padding-top:20px ;
+        padding-bottom:20px ;
+    }
+
+    .fotitos2{
+        width: 400px;
+    }
+
+
+    .contenedor_baldur{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-name: animacion1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion1 {
+            from {background-color: grey; transform: translateX(-3000px);}
+            to {background-color:black; transform: translateX(0%);}
+        }
+    
+        .img-baldur{
+            padding-left:10px ;
+            padding-right:10px ;
+            padding-top:10px ;
+            padding-bottom:5px ;
+        }
+    
+        .text_baldur{
+            padding-left: 60px;
+            text-align: center;
+    
+            .nombre{
+                font-size: 40px;
+                padding-top: 5px;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+            }
+            
+            .text__1{
+                    font-size: 20px;
+                    padding-top: 15px;
+                    font-family: 'Indie Flower', cursive;color: white;
+    
+            }
+        }
+    }
+
+    .contenedor_freya{
+        background-color: black;
+        display: flex;
+        margin-left: 300px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion2 {
+            from {background-color: grey; transform: translateX(3000px);}
+            to {background-color:black; transform: translateX(0%);}
+            }
+    
+            .img-freya{
+                padding-left:10px ;
+                padding-right:10px ;
+                padding-top:10px ;
+                padding-bottom:5px ;
+            }
+    
+            .text_freya{
+                padding-left: 60px;
+                text-align: center;
+    
+                .nombre2{
+                    font-size: 40px;
+                    padding-top: 5px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                    
+                }
+                
+                .text__2{
+                        font-size: 20px;
+                        padding-top:15px;
+                        padding-right: 40px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                }
+            }
+    
+    }
+
+    .contenedor_magni{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion3 {
+            from {background-color: grey; transform: translateX(-3000px);}
+            to {background-color:black; transform: translateX(0%);}
+        }
+    
+        .img-magni{
+            padding-left:10px ;
+            padding-right:10px ;
+            padding-top:10px ;
+            padding-bottom:5px ;
+        }
+    
+        .text_magni{
+            padding-left: 60px;
+            text-align: center;
+            .nombre3{
+                font-size: 40px;
+                padding-top: 5px;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+            }
+    
+            .text__3{
+                font-size: 20px;
+                padding-top: 15px;
+                padding-right: 20px;
+                font-family: 'Indie Flower', cursive;
+                color: white;
+            }
+        
+        }
+    }
+    
+    .contenedor_thor{
+        background-color: black;
+        display: flex;
+        margin-left: 300px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion4 {
+            from {background-color: grey; transform: translateX(3000px);}
+            to {background-color:black; transform: translateX(0%);}
+            }
+    
+            .img-thor{
+                padding-left:10px ;
+                padding-right:10px ;
+                padding-top:10px ;
+                padding-bottom:5px ;
+            }
+            
+            .text_thor{
+                padding-left: 60px;
+                text-align: center;
+    
+                .nombre4{
+                    font-size: 40px;
+                    padding-top: 5px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                
+                .text__4{
+                        font-size: 20px;
+                        padding-top: 15px;
+                        padding-right: 20px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                }
+            }
+    }
+     
+    .contenedor_mimir{
+        background-color: black;
+        display: flex;
+        margin-left: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        animation-name: animacion5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        @keyframes animacion5 {
+            from {background-color: grey; transform: translateX(-3000px);}
+            to {background-color:black; transform: translateX(0%);}
+            }
+    
+            .img-mimir{
+                padding-left:10px ;
+                padding-right:10px ;
+                padding-top:10px ;
+                padding-bottom:5px ;
+            }
+            
+            .text_mimir{
+                padding-left: 60px;
+                text-align: center;
+    
+                .nombre5{
+                    font-size: 40px;
+                    padding-top: 5px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                
+                .text__5{
+                        font-size: 20px;
+                        padding-top: 15px;
+                        padding-right: 20px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                }
+            }
+    }
+    
+        /*TERMINA PAGGINA 2*/
+
+        .fotitos3{
+            width: 350px;
+        }
+
+        .contenedor_faye{
+            background-color: transparent;
+            display: flex;
+            margin-left: 100px;
+            max-width: 80%;
+            margin-top: 10px;
+            margin-bottom:30px ;
+            animation-name: animacionfaye;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacionfaye {
+                0% {transform: translateY(2000px);}
+                100% {transform: translateY(0%);}
+            }
+            .img-faye{
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top: 10px;
+                padding-bottom:5px ;
+            }
+            
+            .text__faye{
+                font-size: 15px;
+                padding-left:0px ;
+                padding-right: 20px;
+                padding-top:80px ;
+                padding-bottom:0 ;
+                padding-left: 5px;
+                text-align: center;
+                font-family: 'Indie Flower', cursive;
+                color: black;
+            }
+        }
+        
+        .contenedor_atreus{
+            background-color: transparent;
+            display: flex;
+            margin-left: 200px;
+            max-width: 80%;
+            margin-top: 0px;
+            margin-bottom:30px ;
+            animation-name: animacionatreus;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacionatreus {
+                0% {transform: translateY(3000px);}
+                100% {transform: translateY(0%);}
+            }
+        
+            .img-atreus{
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top: 10px;
+                padding-bottom:5px ;
+            }
+        
+            .text__atreus{
+                font-size: 15px;
+                text-align: center;
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top:180px ;
+                padding-bottom:0px ;
+                font-family: 'Indie Flower', cursive;
+                color: black;
+            }
+        }
+        
+        .contenedor_familia{
+            background-color: transparent;
+            display: flex;
+            margin-left: 100px;
+            max-width: 80%;
+            margin-top: 0px;
+            margin-bottom:0px ;
+            animation-name: animacionfamilia;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacionfamilia {
+                0% {transform: translateY(4000px);}
+                100% {transform: translateY(0%);}
+            }
+        
+            .img-familia{
+                padding-left:5px ;
+                padding-right:5px ;
+                padding-top: 10px;
+                padding-bottom:5px ;
+            }
+        
+            .text__familia{
+                font-size: 15px;
+                padding-top: 150px;
+                font-family: 'Indie Flower', cursive;
+                color: black;
+                padding-left:10px;
+                text-align: center;
+            }
+        }
+        
+    /*TERMINA PAGIINA 3*/
+
+    .container-img{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,530px);
+        grid-template-rows: repeat(10,400px);
+        grid-gap: 20px;
+    }
+    
+    .container-img .box-img figure{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-img .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(4){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(9){
+        grid-column-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(13){
+        grid-row-start: span 2;
+    }
+    
+    .container-img .box-img:nth-child(16){
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+    }
+
+    /*TERMINA PAGINA 4*/
+    
+    .santa_monica{
+        width: 300px;
+    }
+
+    .bloque1{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    
+        .sms{
+            padding-top: 90px;
+        font-size: 15px;
+        padding-left: 30px ;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        }
+    }
+    
+    .bloque2{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    
+        .cory{
+            font-size: 50px;
+            margin-bottom: 10px;
+            font-family: 'Abril Fatface', cursive;
+            color: white;
+        }
+    
+        .cory_datos{
+            font-size: 15px;
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+        }
+    }
+    
+    .bloque3{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    
+        .david{
+            font-size: 50px;
+            margin-bottom: 10px;
+            font-family: 'Abril Fatface', cursive;
+            color: white;
+        }
+    
+        .david_datos{
+            font-size: 15px;
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+        }
+    }
+    
+    .bloque4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .ps{
+        width: 350px;
+    }
+}
+
+
+/*TERMINA MEDIA QUERIE 1440PX*/
+
+/*EMPIEZA MEDIA QUERIE 1024PX*/
+
+
+@media (max-width:1024px) {
+    header{
+        background-color: black;
+    
+        .container{
+            max-width: 100vh;
+            margin: 0 auto;
+        }
+    
+        .navbar{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+    
+            .navbar__titulo {
+                display: inline-block;
+                font-size: 30px;
+                padding-left: 0rem;
+                margin: 30px;
+                font-family:'Libre Baskerville', serif;;
+                color: white;
+                transition-property: color;
+                transition-duration:3s ;
+                transition-timing-function: ease ;
+                transition-delay: 0s ;
+    
+                &:hover{
+                    color: red; 
+                    cursor: pointer;
+                }  
+            }
+            .menu {
+                display: inline-block;
+                @include flex(none,center);
+    
+                .menu__item {
+                    display: inline-block;
+                    padding: 5px;
+                }
+    
+                .menu__link {
+                    color: #CCC8C8;
+                    text-decoration: none;
+                    font-size:15px;
+                    padding-right: 10px;
+                    margin: 3px;
+                    font-family: 'Gloria Hallelujah', cursive;
+                    transition-property: color;
+                    transition-duration:1s ;
+                    transition-timing-function: ease ;
+                    transition-delay: 0s ;
+    
+                    &:hover{
+                        color: red; 
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+        /*TERMINA EL HEADER*/
+
+        .fotito{
+            width: 600px;
+        }
+
+        .contenedores{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        
+            .contenedor_1{
+                background-color: rgb(50, 50, 50) ;
+                width: fit-content;
+                margin: 20px;
+        
+                &:hover{
+                    background-color: #000;
+                }
+        
+                .img-contenedor1{
+                    padding-left: 0px;
+                    padding-right: 0px ;
+                    padding-top:0px ;
+                    padding-bottom:5px ;
+                
+                }
+            
+                .hacha{
+                    color: white;
+                    font-size:30px;
+                    text-align: center;
+                    font-family: 'Permanent Marker', cursive;
+                }
+            
+                .text_1{
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-family: 'Kanit', sans-serif;
+                }
+            }
+        
+            .contenedor_2{
+                background-color: rgb(50, 50, 50);
+                width: fit-content;
+                margin: 5px;
+        
+                &:hover{
+                    background-color: #000;
+                }
+        
+                .img-contenedor2{
+                    padding-left: 0px;
+                    padding-right: 0px ;
+                    padding-top:0px ;
+                    padding-bottom:10px ;
+                }
+                
+                .espadas{
+                    color: white;
+                    font-size: 30px;
+                    text-align: center;
+                    font-family: 'Permanent Marker', cursive;
+                }
+                
+                .text_2{
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-family: 'Kanit', sans-serif;
+                }
+            }
+        }
+        
+        .contenedores2{
+            display: flex;
+            justify-content: center;
+        
+            .contenedor_3{
+                background-color: rgb(50, 50, 50) ;
+                width: fit-content;
+                margin: 10px;
+        
+                &:hover{
+                    background-color: #000;
+                }
+        
+                .img-contenedor3{
+                    padding-left: 0px;
+                    padding-right: 0px ;
+                    padding-top:0px ;
+                    padding-bottom:5px ;
+                }
+                
+                .furia{
+                    color: white;
+                    font-size: 30px;
+                    text-align: center;
+                    font-family: 'Permanent Marker', cursive;
+                }
+                
+                .text_3{
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-family: 'Kanit', sans-serif;
+                }
+            }
+        }
+    
+        /*TERMINA PAGINA 1*/
+    
+        footer  { 
+            background-color: #000000;
+            padding: 40px;
+            color: #CCC8C8;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        
+            section p { 
+                float: right;
+                font-size: 15PX;
+                font-family: 'Gloria Hallelujah', cursive;
+                margin-top: 10px;
+            }
+        
+            a { 
+                margin: 0;
+                font-size: 15PX;
+                text-decoration: none;
+                color: white;
+                font-family: 'Gloria Hallelujah', cursive;
+             }
+        }
+
+        /*TERMINA EL FOOTER*/
+
+
+        h1{
+            font-size: 65px;
+            padding-top:15px ;
+            padding-bottom: 15px;
+
+        }
+    
+        .fotitos2{
+            width: 350px;
+        }
+    
+    
+        .contenedor_baldur{
+            background-color: black;
+            display: flex;
+            margin-left: 100px;
+            max-width: 80%;
+            margin-top: 20px;
+            margin-bottom:30px ;
+            animation-name: animacion1;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-name: animacion1;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacion1 {
+                from {background-color: grey; transform: translateX(-3000px);}
+                to {background-color:black; transform: translateX(0%);}
+            }
+        
+            .img-baldur{
+                padding-top:10px ;
+                padding-bottom:5px;
+                padding-left:10px ;
+                padding-right:10px ; 
+            }
+        
+            .text_baldur{
+                padding-left: 50px;
+                padding-right: 5px;
+                text-align: center;
+        
+                .nombre{
+                    font-size: 40px;
+                    padding-top: 10px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                
+                .text__1{
+                    font-size: 17px;
+                    padding-top: 15px;
+                    font-family: 'Indie Flower', cursive;color: white;
+        
+                }
+            }
+        }
+    
+        .contenedor_freya{
+            background-color: black;
+            display: flex;
+            margin-left: 200px;
+            max-width: 80%;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            animation-name: animacion2;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacion2 {
+                from {background-color: grey; transform: translateX(3000px);}
+                to {background-color:black; transform: translateX(0%);}
+                }
+        
+                .img-freya{
+                    padding-top:10px ;
+                    padding-bottom:5px;
+                    padding-left:10px ;
+                    padding-right:10px ; 
+                }
+        
+                .text_freya{
+                    padding-left: 30px;
+                    padding-right: 5px;
+                    text-align: center;
+        
+                    .nombre2{
+                        font-size: 40px;
+                        padding-top: 10px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                        
+                    }
+                    
+                    .text__2{
+                        font-size: 17px;
+                        padding-top: 15px;
+                        padding-right: 10px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                    }
+                }
+        
+        }
+    
+        .contenedor_magni{
+            background-color: black;
+            display: flex;
+            margin-left: 100px;
+            max-width: 80%;
+            margin-top: 0px;
+            margin-bottom:30px ;
+            animation-name: animacion3;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacion3 {
+                from {background-color: grey; transform: translateX(-3000px);}
+                to {background-color:black; transform: translateX(0%);}
+            }
+        
+            .img-magni{
+                padding-top:10px ;
+                padding-bottom:5px;
+                padding-left:10px ;
+                padding-right:10px ; 
+            }
+        
+            .text_magni{
+                padding-left: 40px;
+                padding-right: 0px;
+                text-align: center;
+
+                .nombre3{
+                    font-size: 40px;
+                    padding-top: 10px;
+                    padding-right: 50px;
+                    color: white;
+                    font-family: 'Abril Fatface', cursive;
+                }
+        
+                .text__3{
+                    font-size: 14px;
+                    padding-top: 15px;
+                    padding-left: 0px;
+                    font-family: 'Indie Flower', cursive;
+                    color: white;
+                }
+            
+            }
+        }
+        
+        .contenedor_thor{
+            background-color: black;
+            display: flex;
+            margin-left: 200px;
+            max-width: 80%;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            animation-name: animacion4;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacion4 {
+                from {background-color: grey; transform: translateX(3000px);}
+                to {background-color:black; transform: translateX(0%);}
+                }
+        
+                .img-thor{
+                    padding-top:10px ;
+                    padding-bottom:5px;
+                    padding-left:10px ;
+                    padding-right:10px ; 
+                }
+                
+                .text_thor{
+                    padding-left: 5px;
+                    text-align: center;
+        
+                    .nombre4{
+                        font-size: 40px;
+                        padding-top: 10px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+                    
+                    .text__4{
+                        font-size: 13px;
+                        padding-top: 10px;
+                        padding-right: 7px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                    }
+                }
+        }
+         
+        .contenedor_mimir{
+            background-color: black;
+            display: flex;
+            margin-left: 100px;
+            max-width: 80%;
+            margin-bottom: 30px;
+            animation-name: animacion5;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        
+            @keyframes animacion5 {
+                from {background-color: grey; transform: translateX(-3000px);}
+                to {background-color:black; transform: translateX(0%);}
+                }
+        
+                .img-mimir{
+                    padding-top:10px ;
+                    padding-bottom:5px;
+                    padding-left:10px ;
+                    padding-right:10px ; 
+                }
+                
+                .text_mimir{
+                    padding-left: 5px;
+                    text-align: center;
+        
+                    .nombre5{
+                        font-size: 40px;
+                        padding-top: 10px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+                    
+                    .text__5{
+                        font-size: 15px;
+                        padding-top: 10px;
+                        padding-right: 3px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                    }
+                }
+        }
+        
+            /*TERMINA PAGGINA 2*/  
+
+            .fotitos3{
+                width: 300px;
+            }
+    
+            .contenedor_faye{
+                background-color: transparent;
+                display: flex;
+                margin-left: 100px;
+                max-width: 80%;
+                margin-top: 10px;
+                margin-bottom:30px ;
+                animation-name: animacionfaye;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacionfaye {
+                    0% {transform: translateY(2000px);}
+                    100% {transform: translateY(0%);}
+                }
+                .img-faye{
+                    padding-left:5px ;
+                    padding-right:5px ;
+                    padding-top: 10px;
+                    padding-bottom:5px ;
+                }
+                
+                .text__faye{
+                    font-size: 15px;
+                    padding-left:0px ;
+                    padding-right: 20px;
+                    padding-top:80px ;
+                    padding-bottom:0 ;
+                    padding-left: 5px;
+                    text-align: center;
+                    font-family: 'Indie Flower', cursive;
+                    color: black;
+                }
+            }
+            
+            .contenedor_atreus{
+                background-color: transparent;
+                display: flex;
+                margin-left: 200px;
+                max-width: 80%;
+                margin-top: 0px;
+                margin-bottom:30px ;
+                animation-name: animacionatreus;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacionatreus {
+                    0% {transform: translateY(3000px);}
+                    100% {transform: translateY(0%);}
+                }
+            
+                .img-atreus{
+                    padding-left:5px ;
+                    padding-right:5px ;
+                    padding-top: 10px;
+                    padding-bottom:5px ;
+                }
+            
+                .text__atreus{
+                    font-size: 15px;
+                    text-align: center;
+                    padding-left:5px ;
+                    padding-right:5px ;
+                    padding-top:180px ;
+                    padding-bottom:0px ;
+                    font-family: 'Indie Flower', cursive;
+                    color: black;
+                }
+            }
+            
+            .contenedor_familia{
+                background-color: transparent;
+                display: flex;
+                margin-left: 100px;
+                max-width: 80%;
+                margin-top: 0px;
+                margin-bottom:0px ;
+                animation-name: animacionfamilia;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacionfamilia {
+                    0% {transform: translateY(4000px);}
+                    100% {transform: translateY(0%);}
+                }
+            
+                .img-familia{
+                    padding-left:5px ;
+                    padding-right:5px ;
+                    padding-top: 10px;
+                    padding-bottom:5px ;
+                }
+            
+                .text__familia{
+                    font-size: 15px;
+                    padding-top: 150px;
+                    font-family: 'Indie Flower', cursive;
+                    color: black;
+                    padding-left:10px;
+                    text-align: center;
+                }
+            }
+            
+        /*TERMINA PAGIINA 3*/
+    
+        .container-img{
+            width: 100%;
+            max-width: 1024px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2,450px);
+            grid-template-rows: repeat(10,350px);
+            grid-gap: 15px;
+        }
+        
+        .container-img .box-img figure{
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container-img .box-img img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        } 
+        
+        .container-img .box-img:nth-child(1){
+            grid-column-start: span 2;
+        }
+        
+        .container-img .box-img:nth-child(4){
+            grid-row-start: span 2;
+        }
+        
+        .container-img .box-img:nth-child(9){
+            grid-column-start: span 2;
+        }
+        
+        .container-img .box-img:nth-child(13){
+            grid-row-start: span 2;
+        }
+        
+        .container-img .box-img:nth-child(16){
+            grid-column-start: 2;
+            grid-column-end: 3;
+    
+        }
+    
+        /*TERMINA PAGINA 4*/
+        
+        .santa_monica{
+            width: 270px;
+        }
+    
+        .bloque1{
+            display: flex;
+            justify-content: center;
+            padding-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+
+            .sms{
+            padding-top: 90px;
+            font-size: 15px;
+            padding-left: 30px ;
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+            }
+        }
+        
+        .bloque2{
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        
+            .cory{
+                font-size: 50px;
+                margin-bottom: 10px;
+                font-family: 'Abril Fatface', cursive;
+                color: white;
+            }
+        
+            .cory_datos{
+                font-size: 15px;
+                font-family: 'Permanent Marker', cursive;
+                color: white;
+            }
+        }
+        
+        .bloque3{
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        
+            .david{
+                font-size: 50px;
+                margin-bottom: 10px;
+                font-family: 'Abril Fatface', cursive;
+                color: white;
+            }
+        
+            .david_datos{
+                font-size: 15px;
+                font-family: 'Permanent Marker', cursive;
+                color: white;
+            }
+        }
+        
+        .bloque4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+    
+        .ps{
+            width: 300px;
+        }
+}
+
+
+
+    /*TERMINA MEDIA QUERIE PARA 1024PX*
+    
+    
+    /*EMPIEZA MEDIA QUERIE PARA 768PX*/
+
+
+    @media (max-width:768px){
+        header{
+            background-color: black;
+        
+            .container{
+                max-width: 100vh;
+                margin: 0 auto;
+            }
+        
+            .navbar{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+        
+                .navbar__titulo {
+                    display: inline-block;
+                    font-size: 40px;
+                    padding-left: 0px;
+                    margin: 5px;
+                    font-family:'Libre Baskerville', serif;;
+                    color: white;
+                    transition-property: color;
+                    transition-duration:3s ;
+                    transition-timing-function: ease ;
+                    transition-delay: 0s ;
+        
+                    &:hover{
+                        color: red; 
+                        cursor: pointer;
+                    }  
+                }
+                .menu {
+                    display: inline-block;
+                    @include flex(none,center);
+        
+                    .menu__item {
+                        display: inline-block;
+                        padding: 5px;
+                    }
+        
+                    .menu__link {
+                        color: #CCC8C8;
+                        text-decoration: none;
+                        font-size:20px;
+                        padding-right: 0px;
+                        margin: 5px;
+                        font-family: 'Gloria Hallelujah', cursive;
+                        transition-property: color;
+                        transition-duration:1s ;
+                        transition-timing-function: ease ;
+                        transition-delay: 0s ;
+        
+                        &:hover{
+                            color: red; 
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    
+            /*TERMINA EL HEADER*/
+    
+            .fotito{
+                width: 400px;
+            }
+    
+            .contenedores{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            
+                .contenedor_1{
+                    background-color: rgb(50, 50, 50) ;
+                    width: fit-content;
+                    margin: 10px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor1{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:2px ;
+                    
+                    }
+                
+                    .hacha{
+                        color: white;
+                        font-size:20px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                
+                    .text_1{
+                        color: white;
+                        font-size: 10px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            
+                .contenedor_2{
+                    background-color: rgb(50, 50, 50);
+                    width: fit-content;
+                    margin: 5px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor2{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:10px ;
+                    }
+                    
+                    .espadas{
+                        color: white;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                    
+                    .text_2{
+                        color: white;
+                        font-size: 10px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            }
+            
+            .contenedores2{
+                display: flex;
+                justify-content: center;
+            
+                .contenedor_3{
+                    background-color: rgb(50, 50, 50) ;
+                    width: fit-content;
+                    margin: 10px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor3{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:10px ;
+                    }
+                    
+                    .furia{
+                        color: white;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                    
+                    .text_3{
+                        color: white;
+                        font-size: 10px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            }
+        
+            /*TERMINA PAGINA 1*/
+        
+            footer  { 
+                background-color: #000000;
+                padding: 30px;
+                color: #CCC8C8;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            
+                section p { 
+                    float: right;
+                    font-size: 10PX;
+                    font-family: 'Gloria Hallelujah', cursive;
+                    margin-top: 10px;
+                }
+            
+                a { 
+                    margin: 0;
+                    font-size: 10PX;
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Gloria Hallelujah', cursive;
+                 }
+            }
+    
+            /*TERMINA EL FOOTER*/
+    
+    
+            h1{
+                font-size: 55px;
+                padding-top:10px ;
+                padding-bottom:10px;
+            }
+        
+            .fotitos2{
+                width: 200px;
+            }
+        
+        
+            .contenedor_baldur{
+                background-color: black;
+                display: flex;
+                margin-left: 50px;
+                max-width: 80%;
+                margin-top: 20px;
+                margin-bottom:20px ;
+                animation-name: animacion1;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+                animation-name: animacion1;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion1 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                }
+            
+                .img-baldur{
+                    padding-top:5px ;
+                    padding-bottom:0px;
+                    padding-left:5px ;
+                    padding-right:5px ; 
+                }
+            
+                .text_baldur{
+                    padding-left: 20px;
+                    padding-right: 5px;
+                    text-align: center;
+            
+                    .nombre{
+                        font-size: 25px;
+                        padding-top: 5px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+                    
+                    .text__1{
+                        font-size: 10px;
+                        padding-top: 2px;
+                        font-family: 'Indie Flower', cursive;color: white;
+            
+                    }
+                }
+            }
+        
+            .contenedor_freya{
+                background-color: black;
+                display: flex;
+                margin-left: 200px;
+                max-width: 80%;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                animation-name: animacion2;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion2 {
+                    from {background-color: grey; transform: translateX(3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-freya{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+            
+                    .text_freya{
+                        padding-left: 20px;
+                        text-align: center;
+            
+                        .nombre2{
+                            font-size: 25px;
+                            padding-top: 5px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                            
+                        }
+                        
+                        .text__2{
+                            font-size: 10px;
+                            padding-top: 2px;
+                            padding-right: 5px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            
+            }
+        
+            .contenedor_magni{
+                background-color: black;
+                display: flex;
+                margin-left: 50px;
+                max-width: 80%;
+                margin-top: 20px;
+                margin-bottom:20px ;
+                animation-name: animacion3;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion3 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                }
+            
+                .img-magni{
+                    padding-top:5px ;
+                    padding-bottom:0px;
+                    padding-left:5px ;
+                    padding-right:5px ; 
+                }
+            
+                .text_magni{
+                    padding-left: 10px;
+                    padding-right: 5px;
+                    text-align: center;
+    
+                    .nombre3{
+                        font-size: 25px;
+                        padding-top: 2px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+            
+                    .text__3{
+                        font-size: 8px;
+                        padding-top: 2px;
+                        padding-left: 40px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                    }
+                
+                }
+            }
+            
+            .contenedor_thor{
+                background-color: black;
+                display: flex;
+                margin-left: 200px;
+                max-width: 80%;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                animation-name: animacion4;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion4 {
+                    from {background-color: grey; transform: translateX(3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-thor{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+                    
+                    .text_thor{
+                        padding-left: 5px;
+                        text-align: center;
+            
+                        .nombre4{
+                            font-size: 25px;
+                            padding-top: 2px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                        }
+                        
+                        .text__4{
+                            font-size: 8px;
+                            padding-top: 2px;
+                            padding-right: 7px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            }
+             
+            .contenedor_mimir{
+                background-color: black;
+                display: flex;
+                margin-left: 3rem;
+                max-width: 80%;
+                margin-bottom: 50px;
+                animation-name: animacion5;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion5 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-mimir{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+                    
+                    .text_mimir{
+                        padding-left: 5px;
+                        text-align: center;
+            
+                        .nombre5{
+                            font-size: 25px;
+                            padding-top: 2px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                        }
+                        
+                        .text__5{
+                            font-size: 8px;
+                            padding-top: 2px;
+                            padding-right: 3px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            }
+            
+                /*TERMINA PAGGINA 2*/  
+    
+                .fotitos3{
+                    width: 200px;
+                }
+        
+                .contenedor_faye{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 20px;
+                    max-width: 80%;
+                    margin-top: 10px;
+                    margin-bottom:20px ;
+                    animation-name: animacionfaye;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionfaye {
+                        0% {transform: translateY(2000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                    .img-faye{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                    
+                    .text__faye{
+                        font-size: 8px;
+                        padding-left:0px ;
+                        padding-right: 30px;
+                        padding-top:45px ;
+                        padding-bottom:0 ;
+                        padding-left: 5px;
+                        text-align: center;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                    }
+                }
+                
+                .contenedor_atreus{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 100px;
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-bottom:20px ;
+                    animation-name: animacionatreus;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionatreus {
+                        0% {transform: translateY(3000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                
+                    .img-atreus{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                
+                    .text__atreus{
+                        font-size: 8px;
+                        text-align: center;
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top:100px ;
+                        padding-bottom:0px ;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                    }
+                }
+                
+                .contenedor_familia{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 20px;
+                    max-width: 80%;
+                    margin-top: 20px;
+                    margin-bottom:0px ;
+                    animation-name: animacionfamilia;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionfamilia {
+                        0% {transform: translateY(4000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                
+                    .img-familia{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                
+                    .text__familia{
+                        font-size: 8px;
+                        padding-top: 100px;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                        padding-left:10px;
+                        text-align: center;
+                    }
+                }
+                
+            /*TERMINA PAGIINA 3*/
+        
+            .container-img{
+                width: 100%;
+                max-width: 768px;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(2,350px);
+                grid-template-rows: repeat(10,200px);
+                grid-gap: 10px;
+            }
+            
+            .container-img .box-img figure{
+                width: 100%;
+                height: 100%;
+            }
+            
+            .container-img .box-img img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            } 
+            
+            .container-img .box-img:nth-child(1){
+                grid-column-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(4){
+                grid-row-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(9){
+                grid-column-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(13){
+                grid-row-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(16){
+                grid-column-start: 2;
+                grid-column-end: 3;
+        
+            }
+        
+            /*TERMINA PAGINA 4*/
+            
+            .santa_monica{
+                width: 200px;
+            }
+        
+            .bloque1{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+    
+                .sms{
+                    padding-top: 60px;
+                    font-size: 10px;
+                    padding-left: 10px ;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque2{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            
+                .cory{
+                    font-size: 40px;
+                    margin-bottom: 5px;
+                    font-family: 'Abril Fatface', cursive;
+                    color: white;
+                }
+            
+                .cory_datos{
+                    font-size: 12px;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque3{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            
+                .david{
+                    font-size: 40px;
+                    margin-bottom: 5px;
+                    font-family: 'Abril Fatface', cursive;
+                    color: white;
+                }
+            
+                .david_datos{
+                    font-size: 12px;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 20px;
+            }
+        
+            .ps{
+                width: 200px;
+            }
+    }
+
+
+    /*TERMINA MEDIA QUERIE DE 768PX*/
+
+
+    /*EMPIEZA MEDIA QUERIE DE 480PX*/
+
+    @media (max-width:480px) {
+        header{
+            background-color: black;
+        
+            .container{
+                max-width: 100vh;
+                margin: 0 auto;
+            }
+        
+            .navbar{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+        
+                .navbar__titulo {
+                    display: inline-block;
+                    font-size: 30px;
+                    padding-left: 0px;
+                    margin: 5px;
+                    font-family:'Libre Baskerville', serif;;
+                    color: white;
+                    transition-property: color;
+                    transition-duration:3s ;
+                    transition-timing-function: ease ;
+                    transition-delay: 0s ;
+        
+                    &:hover{
+                        color: red; 
+                        cursor: pointer;
+                    }  
+                }
+                .menu {
+                    display: inline-block;
+                    @include flex(none,center);
+        
+                    .menu__item {
+                        display: inline-block;
+                        padding: 5px;
+                    }
+        
+                    .menu__link {
+                        color: #CCC8C8;
+                        text-decoration: none;
+                        font-size:13px;
+                        padding-right: 0px;
+                        margin: 5px;
+                        font-family: 'Gloria Hallelujah', cursive;
+                        transition-property: color;
+                        transition-duration:1s ;
+                        transition-timing-function: ease ;
+                        transition-delay: 0s ;
+        
+                        &:hover{
+                            color: red; 
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    
+            /*TERMINA EL HEADER*/
+    
+            .fotito{
+                width: 290px;
+            }
+    
+            .contenedores{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            
+                .contenedor_1{
+                    background-color: rgb(50, 50, 50) ;
+                    width: fit-content;
+                    margin: 10px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor1{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:2px ;
+                    
+                    }
+                
+                    .hacha{
+                        color: white;
+                        font-size:20px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                
+                    .text_1{
+                        color: white;
+                        font-size: 10px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            
+                .contenedor_2{
+                    background-color: rgb(50, 50, 50);
+                    width: fit-content;
+                    margin: 5px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor2{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:10px ;
+                    }
+                    
+                    .espadas{
+                        color: white;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                    
+                    .text_2{
+                        color: white;
+                        font-size: 10px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            }
+            
+            .contenedores2{
+                display: flex;
+                justify-content: center;
+            
+                .contenedor_3{
+                    background-color: rgb(50, 50, 50) ;
+                    width: fit-content;
+                    margin: 10px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor3{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:10px ;
+                    }
+                    
+                    .furia{
+                        color: white;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                    
+                    .text_3{
+                        color: white;
+                        font-size: 10px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            }
+        
+            /*TERMINA PAGINA 1*/
+        
+            footer  { 
+                background-color: #000000;
+                padding: 20px;
+                color: #CCC8C8;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            
+                section p { 
+                    float: right;
+                    font-size: 10PX;
+                    font-family: 'Gloria Hallelujah', cursive;
+                    margin-top: 10px;
+                }
+            
+                a { 
+                    font-size: 10PX;
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Gloria Hallelujah', cursive;
+                 }
+            }
+    
+            /*TERMINA EL FOOTER*/
+    
+    
+            h1{
+                font-size: 35px;
+                padding-top:10px ;
+                padding-bottom: 10px;
+            }
+        
+            .fotitos2{
+                width: 150px;
+            }
+        
+        
+            .contenedor_baldur{
+                background-color: black;
+                display: flex;
+                margin-left: 30px;
+                max-width: 80%;
+                margin-top: 10px;
+                margin-bottom:20px ;
+                animation-name: animacion1;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+                animation-name: animacion1;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion1 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                }
+            
+                .img-baldur{
+                    padding-top:5px ;
+                    padding-bottom:0px;
+                    padding-left:5px ;
+                    padding-right:5px ; 
+                }
+            
+                .text_baldur{
+                    padding-left: 38px;
+                    padding-right: 0px;
+                    text-align: center;
+            
+                    .nombre{
+                        font-size: 15px;
+                        padding-top: 5px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+                    
+                    .text__1{
+                        font-size: 7px;
+                        padding-top: 10px;
+                        font-family: 'Indie Flower', cursive;color: white;
+            
+                    }
+                }
+            }
+        
+            .contenedor_freya{
+                background-color: black;
+                display: flex;
+                margin-left: 170px;
+                max-width: 80%;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                animation-name: animacion2;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion2 {
+                    from {background-color: grey; transform: translateX(3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-freya{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+            
+                    .text_freya{
+                        padding-left: 20px;
+                        text-align: center;
+            
+                        .nombre2{
+                            font-size: 15px;
+                            padding-top: 5px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                            
+                        }
+                        
+                        .text__2{
+                            font-size: 7px;
+                            padding-top: 10px;
+                            padding-right: 5px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            
+            }
+        
+            .contenedor_magni{
+                background-color: black;
+                display: flex;
+                margin-left: 30px;
+                max-width: 80%;
+                margin-top: 20px;
+                margin-bottom:20px ;
+                animation-name: animacion3;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion3 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                }
+            
+                .img-magni{
+                    padding-top:5px ;
+                    padding-bottom:0px;
+                    padding-left:5px ;
+                    padding-right:5px ; 
+                }
+            
+                .text_magni{
+                    
+                    text-align: center;
+    
+                    .nombre3{
+                        font-size: 15px;
+                        padding-top: 5px;
+                        padding-left: 70px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+            
+                    .text__3{
+                        font-size: 7px;
+                        padding-top: 5px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                    }
+                
+                }
+            }
+            
+            .contenedor_thor{
+                background-color: black;
+                display: flex;
+                margin-left: 170px;
+                max-width: 80%;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                animation-name: animacion4;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion4 {
+                    from {background-color: grey; transform: translateX(3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-thor{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+                    
+                    .text_thor{
+                        padding-left: 5px;
+                        text-align: center;
+            
+                        .nombre4{
+                            font-size: 15px;
+                            padding-top: 2px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                        }
+                        
+                        .text__4{
+                            font-size: 6px;
+                            padding-top: 5px;
+                            padding-right: 7px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            }
+             
+            .contenedor_mimir{
+                background-color: black;
+                display: flex;
+                margin-left: 30px;
+                max-width: 80%;
+                margin-bottom: 20px;
+                animation-name: animacion5;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion5 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-mimir{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+                    
+                    .text_mimir{
+                        padding-left: 5px;
+                        text-align: center;
+            
+                        .nombre5{
+                            font-size: 15px;
+                            padding-top: 5px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                        }
+                        
+                        .text__5{
+                            font-size: 6px;
+                            padding-top: 10px;
+                            padding-right: 3px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            }
+            
+                /*TERMINA PAGGINA 2*/  
+    
+                .fotitos3{
+                    width: 150px;
+                }
+        
+                .contenedor_faye{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 20px;
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-bottom:10px ;
+                    animation-name: animacionfaye;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionfaye {
+                        0% {transform: translateY(2000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                    .img-faye{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                    
+                    .text__faye{
+                        font-size: 6px;
+                        padding-left:0px ;
+                        padding-right: 30px;
+                        padding-top:38px ;
+                        padding-bottom:0 ;
+                        padding-left: 5px;
+                        text-align: center;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                    }
+                }
+                
+                .contenedor_atreus{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 80px;
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-bottom:10px ;
+                    animation-name: animacionatreus;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionatreus {
+                        0% {transform: translateY(3000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                
+                    .img-atreus{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                
+                    .text__atreus{
+                        font-size: 6px;
+                        text-align: center;
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top:90px ;
+                        padding-bottom:0px ;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                    }
+                }
+                
+                .contenedor_familia{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 20px;
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-bottom:0px ;
+                    animation-name: animacionfamilia;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionfamilia {
+                        0% {transform: translateY(4000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                
+                    .img-familia{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                
+                    .text__familia{
+                        font-size: 6px;
+                        padding-top: 90px;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                        padding-left:10px;
+                        text-align: center;
+                    }
+                }
+                
+            /*TERMINA PAGIINA 3*/
+        
+            .container-img{
+                width: 100%;
+                max-width: 480px;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(2,220px);
+                grid-template-rows: repeat(10,140px);
+                grid-gap: 10px;
+            }
+            
+            .container-img .box-img figure{
+                width: 100%;
+                height: 100%;
+            }
+            
+            .container-img .box-img img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            } 
+            
+            .container-img .box-img:nth-child(1){
+                grid-column-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(4){
+                grid-row-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(9){
+                grid-column-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(13){
+                grid-row-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(16){
+                grid-column-start: 2;
+                grid-column-end: 3;
+        
+            }
+        
+            /*TERMINA PAGINA 4*/
+            
+            .santa_monica{
+                width: 150px;
+            }
+        
+            .bloque1{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+    
+                .sms{
+                    padding-top: 30px;
+                    font-size: 9px;
+                    padding-left: 10px ;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque2{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            
+                .cory{
+                    font-size: 30px;
+                    margin-bottom: 5px;
+                    font-family: 'Abril Fatface', cursive;
+                    color: white;
+                }
+            
+                .cory_datos{
+                    font-size: 10px;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque3{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            
+                .david{
+                    font-size: 30px;
+                    margin-bottom: 5px;
+                    font-family: 'Abril Fatface', cursive;
+                    color: white;
+                }
+            
+                .david_datos{
+                    font-size: 10px;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 10px;
+            }
+        
+            .ps{
+                width: 150px;
+            }
+    }
+
+    /*TERMINA MEDIA QUERIE DE 480PX*/
+
+
+    /*EMPIEZA MEDIA QUERIE DE 380PC*/
+
+    @media (max-width:380px) {
+        header{
+            background-color: black;
+        
+            .container{
+                max-width: 100vh;
+                margin: 0 auto;
+            }
+        
+            .navbar{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+        
+                .navbar__titulo {
+                    display: inline-block;
+                    font-size: 25px;
+                    padding-left: 0px;
+                    margin: 5px;
+                    font-family:'Libre Baskerville', serif;;
+                    color: white;
+                    transition-property: color;
+                    transition-duration:3s ;
+                    transition-timing-function: ease ;
+                    transition-delay: 0s ;
+        
+                    &:hover{
+                        color: red; 
+                        cursor: pointer;
+                    }  
+                }
+                .menu {
+                    display: inline-block;
+                    @include flex(none,center);
+        
+                    .menu__item {
+                        display: inline-block;
+                        padding: 5px;
+                    }
+        
+                    .menu__link {
+                        color: #CCC8C8;
+                        text-decoration: none;
+                        font-size:10px;
+                        padding-right: 0px;
+                        margin: 5px;
+                        font-family: 'Gloria Hallelujah', cursive;
+                        transition-property: color;
+                        transition-duration:1s ;
+                        transition-timing-function: ease ;
+                        transition-delay: 0s ;
+        
+                        &:hover{
+                            color: red; 
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    
+            /*TERMINA EL HEADER*/
+    
+            .fotito{
+                width: 200px;
+            }
+    
+            .contenedores{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            
+                .contenedor_1{
+                    background-color: rgb(50, 50, 50) ;
+                    width: fit-content;
+                    margin: 10px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor1{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:2px ;
+                    
+                    }
+                
+                    .hacha{
+                        color: white;
+                        font-size:15px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                
+                    .text_1{
+                        color: white;
+                        font-size: 7px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            
+                .contenedor_2{
+                    background-color: rgb(50, 50, 50);
+                    width: fit-content;
+                    margin: 5px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor2{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:5px ;
+                    }
+                    
+                    .espadas{
+                        color: white;
+                        font-size: 15px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                    
+                    .text_2{
+                        color: white;
+                        font-size: 7px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            }
+            
+            .contenedores2{
+                display: flex;
+                justify-content: center;
+            
+                .contenedor_3{
+                    background-color: rgb(50, 50, 50) ;
+                    width: fit-content;
+                    margin: 10px;
+            
+                    &:hover{
+                        background-color: #000;
+                    }
+            
+                    .img-contenedor3{
+                        padding-left: 0px;
+                        padding-right: 0px ;
+                        padding-top:0px ;
+                        padding-bottom:10px ;
+                    }
+                    
+                    .furia{
+                        color: white;
+                        font-size: 15px;
+                        text-align: center;
+                        font-family: 'Permanent Marker', cursive;
+                    }
+                    
+                    .text_3{
+                        color: white;
+                        font-size: 7px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Kanit', sans-serif;
+                    }
+                }
+            }
+        
+            /*TERMINA PAGINA 1*/
+        
+            footer  { 
+                background-color: #000000;
+                padding: 10px;
+                color: #CCC8C8;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            
+                section p { 
+                    float: right;
+                    font-size: 10PX;
+                    font-family: 'Gloria Hallelujah', cursive;
+                    margin-top: 10px;
+                }
+            
+                a { 
+                    margin: 0;
+                    font-size: 10PX;
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Gloria Hallelujah', cursive;
+                 }
+            }
+    
+            /*TERMINA EL FOOTER*/
+    
+    
+            h1{
+                font-size: 30px;
+            }
+        
+            .fotitos2{
+                width: 100px;
+            }
+        
+        
+            .contenedor_baldur{
+                background-color: black;
+                display: flex;
+                margin-left:20px;
+                max-width: 80%;
+                margin-top: 5px;
+                margin-bottom:15px ;
+                animation-name: animacion1;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+                animation-name: animacion1;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion1 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                }
+            
+                .img-baldur{
+                    padding-top:5px ;
+                    padding-bottom:0px;
+                    padding-left:5px ;
+                    padding-right:5px ; 
+                }
+            
+                .text_baldur{
+                    padding-left: 35px;
+                    padding-right: 0px;
+                    text-align: center;
+            
+                    .nombre{
+                        font-size: 15px;
+                        padding-top: 5px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+                    
+                    .text__1{
+                        font-size: 5px;
+                        padding-top: 5px;
+                        font-family: 'Indie Flower', cursive;color: white;
+            
+                    }
+                }
+            }
+        
+            .contenedor_freya{
+                background-color: black;
+                display: flex;
+                margin-left: 130px;
+                max-width: 80%;
+                margin-top: 0px;
+                margin-bottom: 15px;
+                animation-name: animacion2;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion2 {
+                    from {background-color: grey; transform: translateX(3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-freya{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+            
+                    .text_freya{
+                        padding-left: 15px;
+                        text-align: center;
+            
+                        .nombre2{
+                            font-size: 10px;
+                            padding-top: 5px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                            
+                        }
+                        
+                        .text__2{
+                            font-size: 5px;
+                            padding-top: 6px;
+                            padding-right: 5px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            
+            }
+        
+            .contenedor_magni{
+                background-color: black;
+                display: flex;
+                margin-left: 20px;
+                max-width: 80%;
+                margin-top: 0px;
+                margin-bottom:15px ;
+                animation-name: animacion3;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion3 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                }
+            
+                .img-magni{
+                    padding-top:5px ;
+                    padding-bottom:0px;
+                    padding-left:5px ;
+                    padding-right:5px ; 
+                }
+            
+                .text_magni{
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    text-align: center;
+    
+                    .nombre3{
+                        font-size: 10px;
+                        padding-top: 5px;
+                        padding-left: 40px;
+                        color: white;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+            
+                    .text__3{
+                        font-size: 5px;
+                        padding-top: 5px;
+                        padding-left: 40px;
+                        font-family: 'Indie Flower', cursive;
+                        color: white;
+                    }
+                
+                }
+            }
+            
+            .contenedor_thor{
+                background-color: black;
+                display: flex;
+                margin-left: 130px;
+                max-width: 80%;
+                margin-top: 0px;
+                margin-bottom: 15px;
+                animation-name: animacion4;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion4 {
+                    from {background-color: grey; transform: translateX(3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-thor{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+                    
+                    .text_thor{
+                        padding-left: 5px;
+                        text-align: center;
+            
+                        .nombre4{
+                            font-size: 10px;
+                            padding-top: 5px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                        }
+                        
+                        .text__4{
+                            font-size: 5px;
+                            padding-top: 2px;
+                            padding-right:7px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            }
+             
+            .contenedor_mimir{
+                background-color: black;
+                display: flex;
+                margin-left: 20px;
+                max-width: 80%;
+                margin-bottom: 15px;
+                animation-name: animacion5;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                position: relative;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            
+                @keyframes animacion5 {
+                    from {background-color: grey; transform: translateX(-3000px);}
+                    to {background-color:black; transform: translateX(0%);}
+                    }
+            
+                    .img-mimir{
+                        padding-top:5px ;
+                        padding-bottom:0px;
+                        padding-left:5px ;
+                        padding-right:5px ; 
+                    }
+                    
+                    .text_mimir{
+                        padding-left: 5px;
+                        text-align: center;
+            
+                        .nombre5{
+                            font-size: 10px;
+                            padding-top: 5px;
+                            color: white;
+                            font-family: 'Abril Fatface', cursive;
+                        }
+                        
+                        .text__5{
+                            font-size: 5px;
+                            padding-top: 5px;
+                            padding-right: 3px;
+                            font-family: 'Indie Flower', cursive;
+                            color: white;
+                        }
+                    }
+            }
+            
+                /*TERMINA PAGGINA 2*/  
+    
+                .fotitos3{
+                    width: 100px;
+                }
+        
+                .contenedor_faye{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 20px;
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-bottom:10px ;
+                    animation-name: animacionfaye;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionfaye {
+                        0% {transform: translateY(2000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                    .img-faye{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                    
+                    .text__faye{
+                        font-size: 5px;
+                        padding-left:0px ;
+                        padding-right: 30px;
+                        padding-top:25px ;
+                        padding-bottom:0 ;
+                        padding-left: 5px;
+                        text-align: center;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                    }
+                }
+                
+                .contenedor_atreus{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 70px;
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-bottom:10px ;
+                    animation-name: animacionatreus;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionatreus {
+                        0% {transform: translateY(3000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                
+                    .img-atreus{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                
+                    .text__atreus{
+                        font-size: 5px;
+                        text-align: center;
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top:60px ;
+                        padding-bottom:0px ;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                    }
+                }
+                
+                .contenedor_familia{
+                    background-color: transparent;
+                    display: flex;
+                    margin-left: 20px;
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-bottom:0px ;
+                    animation-name: animacionfamilia;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    position: relative;
+                    animation-timing-function: linear;
+                    animation-iteration-count: 1;
+                
+                    @keyframes animacionfamilia {
+                        0% {transform: translateY(4000px);}
+                        100% {transform: translateY(0%);}
+                    }
+                
+                    .img-familia{
+                        padding-left:5px ;
+                        padding-right:5px ;
+                        padding-top: 10px;
+                        padding-bottom:5px ;
+                    }
+                
+                    .text__familia{
+                        font-size: 5px;
+                        padding-top: 50px;
+                        font-family: 'Indie Flower', cursive;
+                        color: black;
+                        padding-left:10px;
+                        text-align: center;
+                    }
+                }
+                
+            /*TERMINA PAGIINA 3*/
+        
+            .container-img{
+                width: 100%;
+                max-width: 380px;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(2,180px);
+                grid-template-rows: repeat(10,120px);
+                grid-gap: 10px;
+            }
+            
+            .container-img .box-img figure{
+                width: 100%;
+                height: 100%;
+            }
+            
+            .container-img .box-img img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            } 
+            
+            .container-img .box-img:nth-child(1){
+                grid-column-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(4){
+                grid-row-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(9){
+                grid-column-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(13){
+                grid-row-start: span 2;
+            }
+            
+            .container-img .box-img:nth-child(16){
+                grid-column-start: 2;
+                grid-column-end: 3;
+        
+            }
+        
+            /*TERMINA PAGINA 4*/
+            
+            .santa_monica{
+                width: 100px;
+            }
+        
+            .bloque1{
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                margin-bottom:10px;
+    
+                .sms{
+                    padding-top:20px;
+                    font-size: 5px;
+                    padding-left:5px ;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque2{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 10px;
+            
+                .cory{
+                    font-size: 20px;
+                    margin-bottom:3px;
+                    font-family: 'Abril Fatface', cursive;
+                    color: white;
+                }
+            
+                .cory_datos{
+                    font-size: 5px;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque3{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            
+                .david{
+                    font-size: 20px;
+                    margin-bottom:5px;
+                    font-family: 'Abril Fatface', cursive;
+                    color: white;
+                }
+            
+                .david_datos{
+                    font-size: 5px;
+                    font-family: 'Permanent Marker', cursive;
+                    color: white;
+                }
+            }
+            
+            .bloque4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom:5px;
+            }
+        
+            .ps{
+                width: 100px;
+            }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
