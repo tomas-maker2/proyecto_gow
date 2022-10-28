@@ -10,6 +10,18 @@
     color: black;
 }
 
+h1{
+    font-size: 8rem;
+    text-align: center;
+    color: transparent;
+    background-image: url(https://thumbs.gfycat.com/AdorableDapperGallowaycow-size_restricted.gif);
+    -webkit-background-clip: text;
+    padding: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+}
+
 .bloque1{
     @include flex(center,none);
     margin-top: 50px;
