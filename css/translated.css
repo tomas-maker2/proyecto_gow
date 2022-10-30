@@ -648,7 +648,7 @@ h1 {
       flex-direction: row; }
       header .navbar .navbar__titulo {
         display: inline-block;
-        font-size: 80px;
+        font-size: 70px;
         padding: 15px;
         margin: 2px;
         font-family: 'Libre Baskerville', serif;
@@ -671,7 +671,7 @@ h1 {
         header .navbar .menu .menu__link {
           color: #CCC8C8;
           text-decoration: none;
-          font-size: 35px;
+          font-size: 30px;
           padding-right: 10px;
           margin: 10px;
           font-family: 'Gloria Hallelujah', cursive;

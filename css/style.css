@@ -1,5 +1,4 @@
-*{
-    box-sizing: border-box;
+/*box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -10,11 +9,11 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
+*/
 
 /*Empieza el header*/
 
-header{
+/*header{
     background-color: black;
 }
 
@@ -72,9 +71,9 @@ header{
     align-items: center;
 }
 
-
+*/
 /*Termina el header*/
-
+/*
 .container{
     max-width: 100vh;
     margin: 0 auto;
@@ -222,9 +221,9 @@ p{
     font-family: 'Kanit', sans-serif;
 }
 
-
+*/
 /*Empieza el footer*/
-
+/*
 footer  { 
     background-color: #000000;
     padding: 3rem;
@@ -250,7 +249,7 @@ footer section p {
 
 
  /*Empieza pagina 2*/
-
+/*
  .background2{
     background-image: url(https://acegif.com/wp-content/uploads/gif/howling-wolf-7.gif);
     background-position: center;
@@ -476,7 +475,7 @@ to {background-color:black; transform: translateX(0%);}
 /*Termina pagina 2 (dioses)*/
 
 /*Empieza pagina 3*/
-
+/*
 .background3{
     background-image: url(https://www.global-esports.news/wp-content/uploads/2022/01/Not-all-the-giants-in-God-of-War-are-big.jpg);
     background-position: center;
@@ -605,7 +604,7 @@ to {background-color:black; transform: translateX(0%);}
 /*Termina pagina 3 (familia)*/
 
 /* Empieza pagina 4 */
-
+/*
 .background4{
     background-image: url(https://i.pinimg.com/originals/b4/d5/59/b4d5590accfc949b67fe3741c335cc98.gif);
     background-position: center;
@@ -613,7 +612,7 @@ to {background-color:black; transform: translateX(0%);}
     background-size: cover;
 }
 
-/*grid*/
+
 
 .container-img{
     width: 100%;
@@ -658,16 +657,8 @@ to {background-color:black; transform: translateX(0%);}
     grid-column-start: span 2;
 }
 
-/*Termina pagina 4*/
-
-
-/*Empieza la ultima pagina*/
-
 .background5{
     background-image: url(https://i.kinja-img.com/gawker-media/image/upload/ghrqqkbinpetb0jyx4mi.gif);
-    /*https://www.teahub.io/photos/full/264-2640657_animated-fire-breathing-dragon-gif-fire-dragon-breath.gif*/
-    /*https://i.pinimg.com/originals/76/ca/4f/76ca4f715b013ff2b9dbb713bc1528d4.gif*/
-    /**/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -738,7 +729,6 @@ to {background-color:black; transform: translateX(0%);}
 }
 
 
-/*MEDIA Q MAX-WIDHT 2560*/
 
 @media (max-width:2560px) {
     .navbar{
@@ -940,9 +930,7 @@ to {background-color:black; transform: translateX(0%);}
     font-family: 'Gloria Hallelujah', cursive;
     }
 
-    /*Termina pagina 1*/
 
-     /*Empieza pagina 2*/
 
      h1{
         font-size: 90px;
@@ -1194,9 +1182,7 @@ to {background-color:black; transform: translateX(0%);}
             font-family: 'Indie Flower', cursive;
     }
 
-    /*Termina pagina 2*/
-
-    /*Empieza pagina 3*/
+    
 
      .fotitos3{
         width: 500px;
@@ -1317,9 +1303,7 @@ to {background-color:black; transform: translateX(0%);}
         text-align: center;
     }
 
-    /*Termina pagina 3*/
-
-    /*Empieza pagina 4*/
+    
 
 
     .container-img{
@@ -1349,8 +1333,7 @@ to {background-color:black; transform: translateX(0%);}
     
     .container-img .box-img:nth-child(1){
         grid-column-start: span 2;
-       /* grid-row-start: 1;
-        grid-row-end: 3;*/
+      
     }
     
     .container-img .box-img:nth-child(4){
@@ -1370,10 +1353,7 @@ to {background-color:black; transform: translateX(0%);}
 
     }
 
-    /*Termina pagina 4*/
-
-
-    /*Empieza pagina 5*/
+   
 
     .bloque1{
         display: flex;
@@ -1446,7 +1426,7 @@ to {background-color:black; transform: translateX(0%);}
 
 
   
-/*MEDIA Q MAX-WIDTH 1440px*/
+
 
 @media (max-width:1440px){
     .navbar{
@@ -1647,9 +1627,7 @@ to {background-color:black; transform: translateX(0%);}
     font-family: 'Gloria Hallelujah', cursive;
     }
 
-    /*Termina pagina 1*/
-
-    /*Empieza pagina 2*/
+    
 
     h1{
         font-size: 75px;
@@ -1901,9 +1879,7 @@ to {background-color:black; transform: translateX(0%);}
             font-family: 'Indie Flower', cursive;
     }
 
-    /*Termina pagina 2*/
-
-    /*Empieza pagina 3*/
+    
 
     .fotitos3{
         width: 350px;
@@ -2024,9 +2000,7 @@ to {background-color:black; transform: translateX(0%);}
         text-align: center;
     }
 
-    /*Termina pagina 3*/
-
-    /*Empieza pagina 4*/
+    
 
 
     .container-img{
@@ -2056,8 +2030,7 @@ to {background-color:black; transform: translateX(0%);}
     
     .container-img .box-img:nth-child(1){
         grid-column-start: span 2;
-       /* grid-row-start: 1;
-        grid-row-end: 3;*/
+       
     }
     
     .container-img .box-img:nth-child(4){
@@ -2078,10 +2051,7 @@ to {background-color:black; transform: translateX(0%);}
 
     }
 
-    /*Termina pagina 4*/
-
-
-    /*Empieza pagina 5*/
+    
 
     .bloque1{
         display: flex;
@@ -2155,7 +2125,7 @@ to {background-color:black; transform: translateX(0%);}
 
 
 
-/*MEDIA Q PARA MAX-WIDTH 1024PX*/
+
 
 @media (max-width:1024px){
     
@@ -2299,9 +2269,7 @@ footer section p {
     font-family: 'Gloria Hallelujah', cursive;
  }
 
-    /*Termina pagina 1*/
-
-    /*Empieza pagina 2*/
+    
 
     h1{
         font-size: 75px;
@@ -2553,9 +2521,7 @@ footer section p {
             font-family: 'Indie Flower', cursive;
     }
 
-    /*Termina pagina 2*/
-
-    /*Empieza pagina 3*/
+    
 
     .fotitos3{
         width: 350px;
@@ -2676,9 +2642,7 @@ footer section p {
         text-align: center;
     }
 
-    /*Termina pagina 3*/
-
-    /*Empieza pagina 4*/
+    
 
 
     .container-img{
@@ -2708,8 +2672,7 @@ footer section p {
     
     .container-img .box-img:nth-child(1){
         grid-column-start: span 2;
-       /* grid-row-start: 1;
-        grid-row-end: 3;*/
+       
     }
     
     .container-img .box-img:nth-child(4){
@@ -2730,10 +2693,7 @@ footer section p {
 
     }
 
-    /*Termina pagina 4*/
-
-
-    /*Empieza pagina 5*/
+   
 
     .bloque1{
         display: flex;
@@ -2805,10 +2765,6 @@ footer section p {
 }
 
 
-
-
-
-/*MEDIA Q PARA MAX-WIDHT 768PX*/
 
 @media (max-width:768px){
    
@@ -3008,9 +2964,7 @@ footer section p {
     font-family: 'Gloria Hallelujah', cursive;
  }
 
-    /*Termina pagina 1*/
-
-    /*Empieza pagina 2*/
+   
 
     h1{
         font-size: 60px;
@@ -3260,9 +3214,7 @@ footer section p {
             font-family: 'Indie Flower', cursive;
     }
 
-    /*Termina pagina 2*/
-
-    /*Empieza pagina 3*/
+   
 
     .fotitos3{
         width: 200px;
@@ -3383,9 +3335,7 @@ footer section p {
         text-align: center;
     }
 
-    /*Termina pagina 3*/
-
-    /*Empieza pagina 4*/
+   
 
 
     .container-img{
@@ -3435,10 +3385,7 @@ footer section p {
 
     }
 
-    /*Termina pagina 4*/
-
-
-    /*Empieza pagina 5*/
+   
 
     .bloque1{
         display: flex;
@@ -3512,7 +3459,7 @@ footer section p {
 
 
 
-/*MEDIA Q MAX-WIDTH 480PX*/
+
 
 
 @media (max-width:480px){
@@ -3712,9 +3659,7 @@ footer section p {
     font-family: 'Gloria Hallelujah', cursive;
  }
 
-    /*Termina pagina 1*/
-
-    /*Empieza pagina 2*/
+    
 
     h1{
         font-size: 40px;
@@ -3964,9 +3909,7 @@ footer section p {
             font-family: 'Indie Flower', cursive;
     }
 
-    /*Termina pagina 2*/
-
-    /*Empieza pagina 3*/
+    
 
     .fotitos3{
         width: 150px;
@@ -4087,9 +4030,7 @@ footer section p {
         text-align: center;
     }
 
-    /*Termina pagina 3*/
-
-    /*Empieza pagina 4*/
+   
 
 
     .container-img{
@@ -4139,10 +4080,7 @@ footer section p {
 
     }
 
-    /*Termina pagina 4*/
-
-
-    /*Empieza pagina 5*/
+   
 
     .bloque1{
         display: flex;
@@ -4213,7 +4151,7 @@ footer section p {
 }
 
 
-/*MEDIA Q MAX-WIDTH 380PX*/
+
 
 
 
@@ -4415,9 +4353,7 @@ footer section p {
     font-family: 'Gloria Hallelujah', cursive;
  }
 
-    /*Termina pagina 1*/
-
-    /*Empieza pagina 2*/
+    
 
     h1{
         font-size: 30px;
@@ -4667,9 +4603,7 @@ footer section p {
             font-family: 'Indie Flower', cursive;
     }
 
-    /*Termina pagina 2*/
-
-    /*Empieza pagina 3*/
+    
 
     .fotitos3{
         width: 100px;
@@ -4790,9 +4724,7 @@ footer section p {
         text-align: center;
     }
 
-    /*Termina pagina 3*/
-
-    /*Empieza pagina 4*/
+   
 
 
     .container-img{
@@ -4842,10 +4774,7 @@ footer section p {
 
     }
 
-    /*Termina pagina 4*/
-
-
-    /*Empieza pagina 5*/
+   
 
     .bloque1{
         display: flex;
@@ -4914,3 +4843,4 @@ footer section p {
         width: 100px;
     }
 }
+*/
