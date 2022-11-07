@@ -201,8 +201,10 @@ h1 {
 .contenedor_baldur {
   background-color: black;
   display: flex;
+  flex-direction: column;
+  max-height: fit-content;
   margin-left: 3rem;
-  max-width: 80%;
+  max-width: 40%;
   margin-top: 50px;
   margin-bottom: 50px;
   animation-name: animacion1;
@@ -220,26 +222,31 @@ h1 {
     background-color: black;
     transform: translateX(0%); } }
   .contenedor_baldur .img-baldur {
-    padding: 30px; }
+    padding-top: 20px;
+    display: flex;
+    justify-content: center; }
   .contenedor_baldur .text_baldur {
-    padding-left: 7rem;
+    padding-left: 0rem;
     text-align: center; }
     .contenedor_baldur .text_baldur .nombre {
       font-size: 2.5em;
-      padding-top: 2.5rem;
+      padding-top: 10px;
       color: white;
       font-family: 'Abril Fatface', cursive; }
     .contenedor_baldur .text_baldur .text__1 {
       font-size: 1.9em;
-      padding-top: 70px;
+      padding-top: 20px;
+      padding-bottom: 30px;
       font-family: 'Indie Flower', cursive;
       color: white; }
 
 .contenedor_freya {
   background-color: black;
   display: flex;
-  margin-left: 400px;
-  max-width: 80%;
+  flex-direction: column;
+  max-height: fit-content;
+  margin-left: 1200px;
+  max-width: 40%;
   margin-top: 50px;
   margin-bottom: 50px;
   animation-name: animacion2;
@@ -257,27 +264,33 @@ h1 {
     background-color: black;
     transform: translateX(0%); } }
   .contenedor_freya .img-freya {
-    padding: 30px; }
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; }
   .contenedor_freya .text_freya {
-    padding-left: 7rem;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px; }
     .contenedor_freya .text_freya .nombre2 {
       font-size: 2.5em;
-      padding-top: 2.5rem;
       color: white;
       font-family: 'Abril Fatface', cursive; }
     .contenedor_freya .text_freya .text__2 {
       font-size: 1.9em;
-      padding-top: 70px;
-      padding-right: 40px;
+      padding-top: 10px;
+      padding-right: 0px;
       font-family: 'Indie Flower', cursive;
       color: white; }
 
 .contenedor_magni {
   background-color: black;
   display: flex;
+  flex-direction: column;
+  max-height: fit-content;
   margin-left: 3rem;
-  max-width: 80%;
+  max-width: 40%;
   margin-top: 0px;
   margin-bottom: 50px;
   animation-name: animacion3;
@@ -295,28 +308,34 @@ h1 {
     background-color: black;
     transform: translateX(0%); } }
   .contenedor_magni .img-magni {
-    padding: 30px; }
+    padding-top: 20px;
+    display: flex;
+    justify-content: center; }
   .contenedor_magni .text_magni {
-    padding-left: 7rem;
-    text-align: center; }
+    padding-left: 0rem;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px; }
     .contenedor_magni .text_magni .nombre3 {
       font-size: 2.5em;
-      padding-top: 2.5rem;
+      padding-top: 10px;
       color: white;
       font-family: 'Abril Fatface', cursive; }
     .contenedor_magni .text_magni .text__3 {
       font-size: 1.9em;
-      padding-top: 70px;
-      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       font-family: 'Indie Flower', cursive;
       color: white; }
 
 .contenedor_thor {
   background-color: black;
   display: flex;
-  margin-left: 400px;
-  max-width: 80%;
-  margin-top: 0px;
+  flex-direction: column;
+  max-height: fit-content;
+  margin-left: 1200px;
+  max-width: 40%;
+  margin-top: 50px;
   margin-bottom: 50px;
   animation-name: animacion4;
   animation-duration: 2s;
@@ -333,28 +352,36 @@ h1 {
     background-color: black;
     transform: translateX(0%); } }
   .contenedor_thor .img-thor {
-    padding: 30px; }
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; }
   .contenedor_thor .text_thor {
-    padding-left: 7rem;
-    text-align: center; }
+    padding-left: 0rem;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px; }
     .contenedor_thor .text_thor .nombre4 {
       font-size: 2.5em;
-      padding-top: 2.5rem;
+      padding-top: 10px;
       color: white;
       font-family: 'Abril Fatface', cursive; }
     .contenedor_thor .text_thor .text__4 {
       font-size: 1.9em;
-      padding-top: 70px;
-      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
       font-family: 'Indie Flower', cursive;
       color: white; }
 
 .contenedor_mimir {
   background-color: black;
   display: flex;
+  flex-direction: column;
+  max-height: fit-content;
   margin-left: 3rem;
-  max-width: 80%;
-  margin-top: 0px;
+  max-width: 40%;
+  margin-top: 50px;
   margin-bottom: 50px;
   animation-name: animacion5;
   animation-duration: 2s;
@@ -371,19 +398,23 @@ h1 {
     background-color: black;
     transform: translateX(0%); } }
   .contenedor_mimir .img-mimir {
-    padding: 30px; }
+    padding-top: 20px;
+    display: flex;
+    justify-content: center; }
   .contenedor_mimir .text_mimir {
-    padding-left: 7rem;
+    padding-left: 0rem;
     text-align: center; }
     .contenedor_mimir .text_mimir .nombre5 {
       font-size: 2.5em;
-      padding-top: 2.5rem;
+      padding-top: 10px;
       color: white;
       font-family: 'Abril Fatface', cursive; }
     .contenedor_mimir .text_mimir .text__5 {
       font-size: 1.9em;
-      padding-top: 50px;
-      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
       font-family: 'Indie Flower', cursive;
       color: white; }
 
@@ -785,12 +816,13 @@ h1 {
     padding-top: 30px;
     padding-bottom: 30px; }
   .fotitos2 {
-    width: 500px; }
+    width: 600px; }
   .contenedor_baldur {
     background-color: black;
     display: flex;
-    margin-left: 100px;
-    max-width: 80%;
+    margin-left: 300px;
+    max-width: 30%;
+    max-height: fit-content;
     margin-top: 20px;
     margin-bottom: 30px;
     animation-name: animacion1;
@@ -813,12 +845,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_baldur .img-baldur {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_baldur .text_baldur {
-      padding-left: 290px;
+      padding-left: 0px;
       padding-right: 5px;
       text-align: center; }
       .contenedor_baldur .text_baldur .nombre {
@@ -827,15 +857,18 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_baldur .text_baldur .text__1 {
-        font-size: 25px;
+        font-size: 35px;
         padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_freya {
     background-color: black;
     display: flex;
-    margin-left: 300px;
-    max-width: 80%;
+    margin-left: 1100px;
+    max-width: 30%;
+    max-height: fit-content;
     margin-top: 0px;
     margin-bottom: 30px;
     animation-name: animacion2;
@@ -852,30 +885,30 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_freya .img-freya {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_freya .text_freya {
-      padding-left: 250px;
-      padding-right: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
       text-align: center; }
       .contenedor_freya .text_freya .nombre2 {
         font-size: 60px;
-        padding-top: 15px;
+        padding-top: 5px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_freya .text_freya .text__2 {
-        font-size: 25px;
+        font-size: 35px;
         padding-top: 10px;
-        padding-right: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_magni {
     background-color: black;
     display: flex;
-    margin-left: 100px;
-    max-width: 80%;
+    margin-left: 300px;
+    max-width: 30%;
+    max-height: fit-content;
     margin-top: 0px;
     margin-bottom: 30px;
     animation-name: animacion3;
@@ -892,13 +925,11 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_magni .img-magni {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_magni .text_magni {
-      padding-left: 100px;
-      padding-right: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
       text-align: center; }
       .contenedor_magni .text_magni .nombre3 {
         font-size: 60px;
@@ -907,7 +938,7 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_magni .text_magni .text__3 {
-        font-size: 25px;
+        font-size: 35px;
         padding-top: 10px;
         padding-left: 0px;
         font-family: 'Indie Flower', cursive;
@@ -915,8 +946,9 @@ h1 {
   .contenedor_thor {
     background-color: black;
     display: flex;
-    margin-left: 300px;
-    max-width: 80%;
+    margin-left: 1100px;
+    max-width: 30%;
+    max-height: fit-content;
     margin-top: 0px;
     margin-bottom: 30px;
     animation-name: animacion4;
@@ -933,12 +965,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_thor .img-thor {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_thor .text_thor {
-      padding-left: 5px;
+      padding-left: 10px;
       padding-right: 10px;
       text-align: center; }
       .contenedor_thor .text_thor .nombre4 {
@@ -947,16 +977,17 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_thor .text_thor .text__4 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 15px;
-        padding-right: 40px;
+        padding-right: 0px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_mimir {
     background-color: black;
     display: flex;
-    margin-left: 100px;
-    max-width: 80%;
+    margin-left: 300px;
+    max-width: 30%;
+    max-height: fit-content;
     margin-bottom: 30px;
     animation-name: animacion5;
     animation-duration: 2s;
@@ -972,12 +1003,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_mimir .img-mimir {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_mimir .text_mimir {
-      padding-left: 40px;
+      padding-left: 20px;
       text-align: center; }
       .contenedor_mimir .text_mimir .nombre5 {
         font-size: 60px;
@@ -985,9 +1014,9 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_mimir .text_mimir .text__5 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 10px;
-        padding-right: 40px;
+        padding-right: 0px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   /*TERMINA PAGGINA 2*/
@@ -1318,12 +1347,13 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px; }
   .fotitos2 {
-    width: 400px; }
+    width: 500px; }
   .contenedor_baldur {
     background-color: black;
     display: flex;
-    margin-left: 100px;
-    max-width: 80%;
+    margin-left: 200px;
+    max-width: 40%;
+    max-height: fit-content;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion1;
@@ -1346,12 +1376,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_baldur .img-baldur {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_baldur .text_baldur {
-      padding-left: 60px;
+      padding-left: 0px;
       text-align: center; }
       .contenedor_baldur .text_baldur .nombre {
         font-size: 40px;
@@ -1359,15 +1387,18 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_baldur .text_baldur .text__1 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_freya {
     background-color: black;
     display: flex;
-    margin-left: 300px;
-    max-width: 80%;
+    margin-left: 800px;
+    max-width: 40%;
+    max-height: fit-content;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion2;
@@ -1384,12 +1415,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_freya .img-freya {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_freya .text_freya {
-      padding-left: 60px;
+      padding-left: 0px;
       text-align: center; }
       .contenedor_freya .text_freya .nombre2 {
         font-size: 40px;
@@ -1397,16 +1426,17 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_freya .text_freya .text__2 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 15px;
-        padding-right: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_magni {
     background-color: black;
     display: flex;
-    margin-left: 100px;
-    max-width: 80%;
+    margin-left: 200px;
+    max-width: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion3;
@@ -1423,12 +1453,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_magni .img-magni {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_magni .text_magni {
-      padding-left: 60px;
+      padding-left: 0px;
       text-align: center; }
       .contenedor_magni .text_magni .nombre3 {
         font-size: 40px;
@@ -1436,16 +1464,17 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_magni .text_magni .text__3 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 15px;
         padding-right: 20px;
+        padding-left: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_thor {
     background-color: black;
     display: flex;
-    margin-left: 300px;
-    max-width: 80%;
+    margin-left: 800px;
+    max-width: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion4;
@@ -1462,12 +1491,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_thor .img-thor {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_thor .text_thor {
-      padding-left: 60px;
+      padding-left: 0px;
       text-align: center; }
       .contenedor_thor .text_thor .nombre4 {
         font-size: 40px;
@@ -1475,16 +1502,17 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_thor .text_thor .text__4 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 15px;
         padding-right: 20px;
+        padding-left: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_mimir {
     background-color: black;
     display: flex;
-    margin-left: 100px;
-    max-width: 80%;
+    margin-left: 200px;
+    max-width: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion5;
@@ -1501,12 +1529,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_mimir .img-mimir {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_mimir .text_mimir {
-      padding-left: 60px;
+      padding-left: 0px;
       text-align: center; }
       .contenedor_mimir .text_mimir .nombre5 {
         font-size: 40px;
@@ -1514,9 +1540,10 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_mimir .text_mimir .text__5 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 15px;
         padding-right: 20px;
+        padding-left: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   /*TERMINA PAGGINA 2*/
@@ -1848,12 +1875,13 @@ h1 {
     padding-top: 15px;
     padding-bottom: 15px; }
   .fotitos2 {
-    width: 350px; }
+    width: 400px; }
   .contenedor_baldur {
     background-color: black;
     display: flex;
     margin-left: 100px;
-    max-width: 80%;
+    max-width: 45%;
+    max-height: fit-content;
     margin-top: 20px;
     margin-bottom: 30px;
     animation-name: animacion1;
@@ -1876,12 +1904,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_baldur .img-baldur {
-      padding-top: 10px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      padding-right: 10px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_baldur .text_baldur {
-      padding-left: 50px;
+      padding-left: 0px;
       padding-right: 5px;
       text-align: center; }
       .contenedor_baldur .text_baldur .nombre {
@@ -1890,15 +1916,17 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_baldur .text_baldur .text__1 {
-        font-size: 17px;
+        font-size: 20px;
         padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_freya {
     background-color: black;
     display: flex;
-    margin-left: 200px;
-    max-width: 80%;
+    margin-left: 550px;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 30px;
     animation-name: animacion2;
@@ -1915,13 +1943,11 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_freya .img-freya {
-      padding-top: 10px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      padding-right: 10px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_freya .text_freya {
-      padding-left: 30px;
-      padding-right: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
       text-align: center; }
       .contenedor_freya .text_freya .nombre2 {
         font-size: 40px;
@@ -1929,16 +1955,16 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_freya .text_freya .text__2 {
-        font-size: 17px;
+        font-size: 20px;
         padding-top: 15px;
-        padding-right: 10px;
+        padding-right: 0px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_magni {
     background-color: black;
     display: flex;
     margin-left: 100px;
-    max-width: 80%;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 30px;
     animation-name: animacion3;
@@ -1955,31 +1981,30 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_magni .img-magni {
-      padding-top: 10px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      padding-right: 10px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_magni .text_magni {
-      padding-left: 40px;
-      padding-right: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
       text-align: center; }
       .contenedor_magni .text_magni .nombre3 {
         font-size: 40px;
         padding-top: 10px;
-        padding-right: 50px;
+        padding-right: 0px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_magni .text_magni .text__3 {
-        font-size: 14px;
+        font-size: 17px;
         padding-top: 15px;
-        padding-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_thor {
     background-color: black;
     display: flex;
-    margin-left: 200px;
-    max-width: 80%;
+    margin-left: 550px;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 30px;
     animation-name: animacion4;
@@ -1996,12 +2021,11 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_thor .img-thor {
-      padding-top: 10px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      padding-right: 10px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_thor .text_thor {
-      padding-left: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
       text-align: center; }
       .contenedor_thor .text_thor .nombre4 {
         font-size: 40px;
@@ -2009,16 +2033,16 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_thor .text_thor .text__4 {
-        font-size: 13px;
+        font-size: 17px;
         padding-top: 10px;
-        padding-right: 7px;
+        padding-right: 0px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_mimir {
     background-color: black;
     display: flex;
     margin-left: 100px;
-    max-width: 80%;
+    max-width: 45%;
     margin-bottom: 30px;
     animation-name: animacion5;
     animation-duration: 2s;
@@ -2034,12 +2058,11 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_mimir .img-mimir {
-      padding-top: 10px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      padding-right: 10px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_mimir .text_mimir {
-      padding-left: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
       text-align: center; }
       .contenedor_mimir .text_mimir .nombre5 {
         font-size: 40px;
@@ -2047,9 +2070,9 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_mimir .text_mimir .text__5 {
-        font-size: 15px;
+        font-size: 18px;
         padding-top: 10px;
-        padding-right: 3px;
+        padding-right: 0px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   /*TERMINA PAGGINA 2*/
@@ -2383,12 +2406,12 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px; }
   .fotitos2 {
-    width: 200px; }
+    width: 300px; }
   .contenedor_baldur {
     background-color: black;
     display: flex;
     margin-left: 50px;
-    max-width: 80%;
+    max-width: 45%;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion1;
@@ -2411,29 +2434,27 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_baldur .img-baldur {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_baldur .text_baldur {
-      padding-left: 20px;
-      padding-right: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
       text-align: center; }
       .contenedor_baldur .text_baldur .nombre {
         font-size: 25px;
-        padding-top: 5px;
+        padding-top: 10px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_baldur .text_baldur .text__1 {
-        font-size: 10px;
+        font-size: 14px;
         padding-top: 2px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_freya {
     background-color: black;
     display: flex;
-    margin-left: 200px;
-    max-width: 80%;
+    margin-left: 400px;
+    max-width: 45%;
     margin-top: 50px;
     margin-bottom: 50px;
     animation-name: animacion2;
@@ -2450,20 +2471,19 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_freya .img-freya {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_freya .text_freya {
-      padding-left: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
       text-align: center; }
       .contenedor_freya .text_freya .nombre2 {
         font-size: 25px;
-        padding-top: 5px;
+        padding-top: 2px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_freya .text_freya .text__2 {
-        font-size: 10px;
+        font-size: 14px;
         padding-top: 2px;
         padding-right: 5px;
         font-family: 'Indie Flower', cursive;
@@ -2472,7 +2492,7 @@ h1 {
     background-color: black;
     display: flex;
     margin-left: 50px;
-    max-width: 80%;
+    max-width: 45%;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion3;
@@ -2489,30 +2509,29 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_magni .img-magni {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_magni .text_magni {
-      padding-left: 10px;
-      padding-right: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
       text-align: center; }
       .contenedor_magni .text_magni .nombre3 {
         font-size: 25px;
-        padding-top: 2px;
+        padding-top: 5px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_magni .text_magni .text__3 {
-        font-size: 8px;
-        padding-top: 2px;
-        padding-left: 40px;
+        font-size: 12px;
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_thor {
     background-color: black;
     display: flex;
-    margin-left: 200px;
-    max-width: 80%;
+    margin-left: 400px;
+    max-width: 45%;
     margin-top: 50px;
     margin-bottom: 50px;
     animation-name: animacion4;
@@ -2529,12 +2548,10 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_thor .img-thor {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_thor .text_thor {
-      padding-left: 5px;
+      padding-left: px;
       text-align: center; }
       .contenedor_thor .text_thor .nombre4 {
         font-size: 25px;
@@ -2542,16 +2559,17 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_thor .text_thor .text__4 {
-        font-size: 8px;
+        font-size: 12px;
         padding-top: 2px;
-        padding-right: 7px;
+        padding-right: 20px;
+        padding-left: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_mimir {
     background-color: black;
     display: flex;
-    margin-left: 3rem;
-    max-width: 80%;
+    margin-left: 50px;
+    max-width: 45%;
     margin-bottom: 50px;
     animation-name: animacion5;
     animation-duration: 2s;
@@ -2567,12 +2585,11 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_mimir .img-mimir {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_mimir .text_mimir {
-      padding-left: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
       text-align: center; }
       .contenedor_mimir .text_mimir .nombre5 {
         font-size: 25px;
@@ -2580,9 +2597,10 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_mimir .text_mimir .text__5 {
-        font-size: 8px;
+        font-size: 12px;
         padding-top: 2px;
-        padding-right: 3px;
+        padding-right: 20px;
+        padding-left: 20px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   /*TERMINA PAGGINA 2*/
@@ -2912,12 +2930,12 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px; }
   .fotitos2 {
-    width: 150px; }
+    width: 200px; }
   .contenedor_baldur {
     background-color: black;
     display: flex;
     margin-left: 30px;
-    max-width: 80%;
+    max-width: 45%;
     margin-top: 10px;
     margin-bottom: 20px;
     animation-name: animacion1;
@@ -2940,29 +2958,27 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_baldur .img-baldur {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_baldur .text_baldur {
-      padding-left: 38px;
-      padding-right: 0px;
+      padding-left: 5px;
+      padding-right: 5px;
       text-align: center; }
       .contenedor_baldur .text_baldur .nombre {
         font-size: 15px;
-        padding-top: 5px;
+        padding-top: 10px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_baldur .text_baldur .text__1 {
-        font-size: 7px;
+        font-size: 10px;
         padding-top: 10px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_freya {
     background-color: black;
     display: flex;
-    margin-left: 170px;
-    max-width: 80%;
+    margin-left: 250px;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 20px;
     animation-name: animacion2;
@@ -2979,20 +2995,19 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_freya .img-freya {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_freya .text_freya {
-      padding-left: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
       text-align: center; }
       .contenedor_freya .text_freya .nombre2 {
         font-size: 15px;
-        padding-top: 5px;
+        padding-top: 2px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_freya .text_freya .text__2 {
-        font-size: 7px;
+        font-size: 10px;
         padding-top: 10px;
         padding-right: 5px;
         font-family: 'Indie Flower', cursive;
@@ -3001,7 +3016,7 @@ h1 {
     background-color: black;
     display: flex;
     margin-left: 30px;
-    max-width: 80%;
+    max-width: 45%;
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: animacion3;
@@ -3018,28 +3033,26 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_magni .img-magni {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_magni .text_magni {
       text-align: center; }
       .contenedor_magni .text_magni .nombre3 {
         font-size: 15px;
         padding-top: 5px;
-        padding-left: 70px;
+        padding-left: 0px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_magni .text_magni .text__3 {
-        font-size: 7px;
+        font-size: 10px;
         padding-top: 5px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_thor {
     background-color: black;
     display: flex;
-    margin-left: 170px;
-    max-width: 80%;
+    margin-left: 250px;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 20px;
     animation-name: animacion4;
@@ -3056,10 +3069,8 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_thor .img-thor {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_thor .text_thor {
       padding-left: 5px;
       text-align: center; }
@@ -3069,16 +3080,16 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_thor .text_thor .text__4 {
-        font-size: 6px;
+        font-size: 10px;
         padding-top: 5px;
-        padding-right: 7px;
+        padding-right: 0px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_mimir {
     background-color: black;
     display: flex;
     margin-left: 30px;
-    max-width: 80%;
+    max-width: 45%;
     margin-bottom: 20px;
     animation-name: animacion5;
     animation-duration: 2s;
@@ -3094,10 +3105,8 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_mimir .img-mimir {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_mimir .text_mimir {
       padding-left: 5px;
       text-align: center; }
@@ -3107,7 +3116,7 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_mimir .text_mimir .text__5 {
-        font-size: 6px;
+        font-size: 10px;
         padding-top: 10px;
         padding-right: 3px;
         font-family: 'Indie Flower', cursive;
@@ -3438,12 +3447,12 @@ h1 {
   h1 {
     font-size: 30px; }
   .fotitos2 {
-    width: 100px; }
+    width: 150px; }
   .contenedor_baldur {
     background-color: black;
     display: flex;
     margin-left: 20px;
-    max-width: 80%;
+    max-width: 45%;
     margin-top: 5px;
     margin-bottom: 15px;
     animation-name: animacion1;
@@ -3466,13 +3475,11 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_baldur .img-baldur {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_baldur .text_baldur {
-      padding-left: 35px;
-      padding-right: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
       text-align: center; }
       .contenedor_baldur .text_baldur .nombre {
         font-size: 15px;
@@ -3480,15 +3487,15 @@ h1 {
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_baldur .text_baldur .text__1 {
-        font-size: 5px;
+        font-size: 7px;
         padding-top: 5px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_freya {
     background-color: black;
     display: flex;
-    margin-left: 130px;
-    max-width: 80%;
+    margin-left: 190px;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 15px;
     animation-name: animacion2;
@@ -3505,20 +3512,19 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_freya .img-freya {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_freya .text_freya {
-      padding-left: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
       text-align: center; }
       .contenedor_freya .text_freya .nombre2 {
-        font-size: 10px;
+        font-size: 15px;
         padding-top: 5px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_freya .text_freya .text__2 {
-        font-size: 5px;
+        font-size: 8px;
         padding-top: 6px;
         padding-right: 5px;
         font-family: 'Indie Flower', cursive;
@@ -3527,7 +3533,7 @@ h1 {
     background-color: black;
     display: flex;
     margin-left: 20px;
-    max-width: 80%;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 15px;
     animation-name: animacion3;
@@ -3544,31 +3550,29 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_magni .img-magni {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_magni .text_magni {
       padding-left: 5px;
       padding-right: 5px;
       text-align: center; }
       .contenedor_magni .text_magni .nombre3 {
-        font-size: 10px;
+        font-size: 15px;
         padding-top: 5px;
-        padding-left: 40px;
+        padding-left: 0px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_magni .text_magni .text__3 {
-        font-size: 5px;
+        font-size: 7px;
         padding-top: 5px;
-        padding-left: 40px;
+        padding-left: 10px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_thor {
     background-color: black;
     display: flex;
-    margin-left: 130px;
-    max-width: 80%;
+    margin-left: 190px;
+    max-width: 45%;
     margin-top: 0px;
     margin-bottom: 15px;
     animation-name: animacion4;
@@ -3585,29 +3589,28 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_thor .img-thor {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_thor .text_thor {
-      padding-left: 5px;
+      padding-left: 0px;
       text-align: center; }
       .contenedor_thor .text_thor .nombre4 {
-        font-size: 10px;
+        font-size: 15px;
         padding-top: 5px;
+        padding-left: 10px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_thor .text_thor .text__4 {
-        font-size: 5px;
+        font-size: 6px;
         padding-top: 2px;
-        padding-right: 7px;
+        padding-right: 0px;
         font-family: 'Indie Flower', cursive;
         color: white; }
   .contenedor_mimir {
     background-color: black;
     display: flex;
     margin-left: 20px;
-    max-width: 80%;
+    max-width: 45%;
     margin-bottom: 15px;
     animation-name: animacion5;
     animation-duration: 2s;
@@ -3623,20 +3626,19 @@ h1 {
       background-color: black;
       transform: translateX(0%); } }
     .contenedor_mimir .img-mimir {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      display: flex;
+      justify-content: center; }
     .contenedor_mimir .text_mimir {
       padding-left: 5px;
       text-align: center; }
       .contenedor_mimir .text_mimir .nombre5 {
-        font-size: 10px;
+        font-size: 15px;
         padding-top: 5px;
+        padding-left: 10px;
         color: white;
         font-family: 'Abril Fatface', cursive; }
       .contenedor_mimir .text_mimir .text__5 {
-        font-size: 5px;
+        font-size: 7px;
         padding-top: 5px;
         padding-right: 3px;
         font-family: 'Indie Flower', cursive;

@@ -210,15 +210,16 @@
     }
 
     .fotitos2{
-        width: 500px;
+        width: 600px;
     }
 
 
     .contenedor_baldur{
         background-color: black;
         display: flex;
-        margin-left: 100px;
-        max-width: 80%;
+        margin-left: 300px;
+        max-width: 30%;
+        max-height: fit-content;
         margin-top: 20px;
         margin-bottom:30px ;
         animation-name: animacion1;
@@ -240,14 +241,12 @@
         }
     
         .img-baldur{
-            padding-left:10px ;
-            padding-right:10px ;
-            padding-top:10px ;
-            padding-bottom:5px ;
+            display: flex;
+            justify-content: center;
         }
     
         .text_baldur{
-            padding-left: 290px;
+            padding-left: 0px;
             padding-right: 5px;
             text-align: center;
     
@@ -259,8 +258,10 @@
             }
             
             .text__1{
-                    font-size: 25px;
+                    font-size: 35px;
                     padding-top: 10px;
+                    padding-left:20px ;
+                    padding-right: 20px;
                     font-family: 'Indie Flower', cursive;color: white;
     
             }
@@ -270,8 +271,9 @@
     .contenedor_freya{
         background-color: black;
         display: flex;
-        margin-left: 300px;
-        max-width:80%;
+        margin-left: 1100px;
+        max-width:30%;
+        max-height: fit-content;
         margin-top:0px;
         margin-bottom:30px;
         animation-name: animacion2;
@@ -287,29 +289,28 @@
             }
     
             .img-freya{
-                padding-left:10px ;
-                padding-right:10px ;
-                padding-top:10px ;
-                padding-bottom:5px ;
+                display: flex;
+                justify-content: center;
             }
     
             .text_freya{
-                padding-left: 250px;
-                padding-right: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
                 text-align: center;
     
                 .nombre2{
                     font-size: 60px;
-                    padding-top: 15px;
+                    padding-top: 5px;
                     color: white;
                     font-family: 'Abril Fatface', cursive;
                     
                 }
                 
                 .text__2{
-                        font-size: 25px;
+                        font-size: 35px;
                         padding-top:10px;
-                        padding-right: 10px;
+                        padding-right: 20px;
+                        padding-left: 20px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                 }
@@ -320,8 +321,9 @@
     .contenedor_magni{
         background-color: black;
         display: flex;
-        margin-left: 100px;
-        max-width: 80%;
+        margin-left: 300px;
+        max-width: 30%;
+        max-height: fit-content;
         margin-top: 0px;
         margin-bottom:30px ;
         animation-name: animacion3;
@@ -337,15 +339,13 @@
         }
     
         .img-magni{
-            padding-left:10px ;
-            padding-right:10px ;
-            padding-top:10px ;
-            padding-bottom:5px ;
+            display: flex;
+            justify-content: center;
         }
     
         .text_magni{
-            padding-left: 100px;
-            padding-right: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
             text-align: center;
 
             .nombre3{
@@ -357,7 +357,7 @@
             }
     
             .text__3{
-                font-size: 25px;
+                font-size: 35px;
                 padding-top: 10px;
                 padding-left: 0px;
                 font-family: 'Indie Flower', cursive;
@@ -370,8 +370,9 @@
     .contenedor_thor{
         background-color: black;
         display: flex;
-        margin-left: 300px;
-        max-width:80%;
+        margin-left:1100px;
+        max-width:30%;
+        max-height: fit-content;
         margin-top: 0px;
         margin-bottom: 30px;
         animation-name: animacion4;
@@ -387,14 +388,12 @@
             }
     
             .img-thor{
-                padding-left:10px ;
-                padding-right:10px ;
-                padding-top:10px ;
-                padding-bottom:5px ;
+                display: flex;
+                justify-content: center;
             }
             
             .text_thor{
-                padding-left: 5px;
+                padding-left: 10px;
                 padding-right: 10px;
                 text-align: center;
     
@@ -406,9 +405,9 @@
                 }
                 
                 .text__4{
-                        font-size: 20px;
+                        font-size: 30px;
                         padding-top: 15px;
-                        padding-right: 40px;
+                        padding-right: 0px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                 }
@@ -418,8 +417,9 @@
     .contenedor_mimir{
         background-color: black;
         display: flex;
-        margin-left: 100px;
-        max-width: 80%;
+        margin-left:300px;
+        max-width: 30%;
+        max-height: fit-content;
         margin-bottom: 30px;
         animation-name: animacion5;
         animation-duration: 2s;
@@ -434,14 +434,12 @@
             }
     
             .img-mimir{
-                padding-left:10px ;
-                padding-right:10px ;
-                padding-top:10px ;
-                padding-bottom:5px ;
+                display: flex;
+                justify-content: center;
             }
             
             .text_mimir{
-                padding-left: 40px;
+                padding-left: 20px;
                 text-align: center;
     
                 .nombre5{
@@ -452,9 +450,9 @@
                 }
                 
                 .text__5{
-                        font-size: 20px;
+                        font-size: 30px;
                         padding-top: 10px;
-                        padding-right: 40px;
+                        padding-right: 0px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                 }
@@ -910,15 +908,16 @@
     }
 
     .fotitos2{
-        width: 400px;
+        width: 500px;
     }
 
 
     .contenedor_baldur{
         background-color: black;
         display: flex;
-        margin-left: 100px;
-        max-width: 80%;
+        margin-left: 200px;
+        max-width: 40%;
+        max-height: fit-content;
         margin-top: 20px;
         margin-bottom:20px ;
         animation-name: animacion1;
@@ -940,14 +939,12 @@
         }
     
         .img-baldur{
-            padding-left:10px ;
-            padding-right:10px ;
-            padding-top:10px ;
-            padding-bottom:5px ;
+            display: flex;
+            justify-content: center;
         }
     
         .text_baldur{
-            padding-left: 60px;
+            padding-left: 0px;
             text-align: center;
     
             .nombre{
@@ -958,8 +955,10 @@
             }
             
             .text__1{
-                    font-size: 20px;
+                    font-size: 30px;
                     padding-top: 15px;
+                    padding-left:20px ;
+                    padding-right:20px ;
                     font-family: 'Indie Flower', cursive;color: white;
     
             }
@@ -969,8 +968,9 @@
     .contenedor_freya{
         background-color: black;
         display: flex;
-        margin-left: 300px;
-        max-width: 80%;
+        margin-left: 800px;
+        max-width: 40%;
+        max-height: fit-content;
         margin-top: 20px;
         margin-bottom:20px ;
         animation-name: animacion2;
@@ -986,14 +986,12 @@
             }
     
             .img-freya{
-                padding-left:10px ;
-                padding-right:10px ;
-                padding-top:10px ;
-                padding-bottom:5px ;
+                display: flex;
+                justify-content: center;
             }
     
             .text_freya{
-                padding-left: 60px;
+                padding-left:0px;
                 text-align: center;
     
                 .nombre2{
@@ -1005,9 +1003,10 @@
                 }
                 
                 .text__2{
-                        font-size: 20px;
+                        font-size: 30px;
                         padding-top:15px;
-                        padding-right: 40px;
+                        padding-right: 20px;
+                        padding-left: 20px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                 }
@@ -1018,8 +1017,8 @@
     .contenedor_magni{
         background-color: black;
         display: flex;
-        margin-left: 100px;
-        max-width: 80%;
+        margin-left: 200px;
+        max-width: 40%;
         margin-top: 20px;
         margin-bottom:20px ;
         animation-name: animacion3;
@@ -1035,15 +1034,14 @@
         }
     
         .img-magni{
-            padding-left:10px ;
-            padding-right:10px ;
-            padding-top:10px ;
-            padding-bottom:5px ;
+            display: flex;
+            justify-content: center;
         }
     
         .text_magni{
-            padding-left: 60px;
+            padding-left:0px;
             text-align: center;
+
             .nombre3{
                 font-size: 40px;
                 padding-top: 5px;
@@ -1052,9 +1050,10 @@
             }
     
             .text__3{
-                font-size: 20px;
+                font-size: 30px;
                 padding-top: 15px;
                 padding-right: 20px;
+                padding-left: 20px;
                 font-family: 'Indie Flower', cursive;
                 color: white;
             }
@@ -1065,8 +1064,8 @@
     .contenedor_thor{
         background-color: black;
         display: flex;
-        margin-left: 300px;
-        max-width: 80%;
+        margin-left: 800px;
+        max-width: 40%;
         margin-top: 20px;
         margin-bottom:20px ;
         animation-name: animacion4;
@@ -1082,14 +1081,12 @@
             }
     
             .img-thor{
-                padding-left:10px ;
-                padding-right:10px ;
-                padding-top:10px ;
-                padding-bottom:5px ;
+                display: flex;
+                justify-content: center;
             }
             
             .text_thor{
-                padding-left: 60px;
+                padding-left:0px;
                 text-align: center;
     
                 .nombre4{
@@ -1100,9 +1097,10 @@
                 }
                 
                 .text__4{
-                        font-size: 20px;
+                        font-size: 30px;
                         padding-top: 15px;
                         padding-right: 20px;
+                        padding-left: 20px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                 }
@@ -1112,8 +1110,8 @@
     .contenedor_mimir{
         background-color: black;
         display: flex;
-        margin-left: 100px;
-        max-width: 80%;
+        margin-left: 200px;
+        max-width: 40%;
         margin-top: 20px;
         margin-bottom:20px ;
         animation-name: animacion5;
@@ -1129,14 +1127,12 @@
             }
     
             .img-mimir{
-                padding-left:10px ;
-                padding-right:10px ;
-                padding-top:10px ;
-                padding-bottom:5px ;
+                display: flex;
+                justify-content: center;
             }
             
             .text_mimir{
-                padding-left: 60px;
+                padding-left:0px;
                 text-align: center;
     
                 .nombre5{
@@ -1147,9 +1143,10 @@
                 }
                 
                 .text__5{
-                        font-size: 20px;
+                        font-size: 30px;
                         padding-top: 15px;
                         padding-right: 20px;
+                        padding-left: 20px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                 }
@@ -1615,7 +1612,7 @@
         }
     
         .fotitos2{
-            width: 350px;
+            width: 400px;
         }
     
     
@@ -1623,7 +1620,8 @@
             background-color: black;
             display: flex;
             margin-left: 100px;
-            max-width: 80%;
+            max-width: 45%;
+            max-height: fit-content;
             margin-top: 20px;
             margin-bottom:30px ;
             animation-name: animacion1;
@@ -1645,14 +1643,12 @@
             }
         
             .img-baldur{
-                padding-top:10px ;
-                padding-bottom:5px;
-                padding-left:10px ;
-                padding-right:10px ; 
+                display: flex;
+                justify-content: center; 
             }
         
             .text_baldur{
-                padding-left: 50px;
+                padding-left:0px;
                 padding-right: 5px;
                 text-align: center;
         
@@ -1664,8 +1660,10 @@
                 }
                 
                 .text__1{
-                    font-size: 17px;
+                    font-size: 20px;
                     padding-top: 15px;
+                    padding-left: 10px;
+                    padding-right:10px ;
                     font-family: 'Indie Flower', cursive;color: white;
         
                 }
@@ -1675,8 +1673,8 @@
         .contenedor_freya{
             background-color: black;
             display: flex;
-            margin-left: 200px;
-            max-width: 80%;
+            margin-left: 550px;
+            max-width: 45%;
             margin-top: 0px;
             margin-bottom: 30px;
             animation-name: animacion2;
@@ -1692,15 +1690,13 @@
                 }
         
                 .img-freya{
-                    padding-top:10px ;
-                    padding-bottom:5px;
-                    padding-left:10px ;
-                    padding-right:10px ; 
+                    display: flex;
+                    justify-content: center;
                 }
         
                 .text_freya{
-                    padding-left: 30px;
-                    padding-right: 5px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                     text-align: center;
         
                     .nombre2{
@@ -1712,9 +1708,9 @@
                     }
                     
                     .text__2{
-                        font-size: 17px;
+                        font-size: 20px;
                         padding-top: 15px;
-                        padding-right: 10px;
+                        padding-right: 0px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                     }
@@ -1726,7 +1722,7 @@
             background-color: black;
             display: flex;
             margin-left: 100px;
-            max-width: 80%;
+            max-width: 45%;
             margin-top: 0px;
             margin-bottom:30px ;
             animation-name: animacion3;
@@ -1742,29 +1738,28 @@
             }
         
             .img-magni{
-                padding-top:10px ;
-                padding-bottom:5px;
-                padding-left:10px ;
-                padding-right:10px ; 
+                display: flex;
+                justify-content: center;
             }
         
             .text_magni{
-                padding-left: 40px;
-                padding-right: 0px;
+                padding-left: 10px;
+                padding-right: 10px;
                 text-align: center;
 
                 .nombre3{
                     font-size: 40px;
                     padding-top: 10px;
-                    padding-right: 50px;
+                    padding-right: 0px;
                     color: white;
                     font-family: 'Abril Fatface', cursive;
                 }
         
                 .text__3{
-                    font-size: 14px;
+                    font-size: 17px;
                     padding-top: 15px;
-                    padding-left: 0px;
+                    padding-left: 20px;
+                    padding-right:20px;
                     font-family: 'Indie Flower', cursive;
                     color: white;
                 }
@@ -1775,8 +1770,8 @@
         .contenedor_thor{
             background-color: black;
             display: flex;
-            margin-left: 200px;
-            max-width: 80%;
+            margin-left: 550px;
+            max-width: 45%;
             margin-top: 0px;
             margin-bottom: 30px;
             animation-name: animacion4;
@@ -1792,14 +1787,13 @@
                 }
         
                 .img-thor{
-                    padding-top:10px ;
-                    padding-bottom:5px;
-                    padding-left:10px ;
-                    padding-right:10px ; 
+                    display: flex;
+                    justify-content: center;
                 }
                 
                 .text_thor{
-                    padding-left: 5px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                     text-align: center;
         
                     .nombre4{
@@ -1810,9 +1804,9 @@
                     }
                     
                     .text__4{
-                        font-size: 13px;
+                        font-size: 17px;
                         padding-top: 10px;
-                        padding-right: 7px;
+                        padding-right: 0px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                     }
@@ -1823,7 +1817,7 @@
             background-color: black;
             display: flex;
             margin-left: 100px;
-            max-width: 80%;
+            max-width: 45%;
             margin-bottom: 30px;
             animation-name: animacion5;
             animation-duration: 2s;
@@ -1838,14 +1832,13 @@
                 }
         
                 .img-mimir{
-                    padding-top:10px ;
-                    padding-bottom:5px;
-                    padding-left:10px ;
-                    padding-right:10px ; 
+                    display: flex;
+                    justify-content: center;
                 }
                 
                 .text_mimir{
-                    padding-left: 5px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                     text-align: center;
         
                     .nombre5{
@@ -1856,9 +1849,9 @@
                     }
                     
                     .text__5{
-                        font-size: 15px;
+                        font-size: 18px;
                         padding-top: 10px;
-                        padding-right: 3px;
+                        padding-right: 0px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                     }
@@ -2325,7 +2318,7 @@
             }
         
             .fotitos2{
-                width: 200px;
+                width: 300px;
             }
         
         
@@ -2333,7 +2326,7 @@
                 background-color: black;
                 display: flex;
                 margin-left: 50px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-top: 20px;
                 margin-bottom:20px ;
                 animation-name: animacion1;
@@ -2355,26 +2348,24 @@
                 }
             
                 .img-baldur{
-                    padding-top:5px ;
-                    padding-bottom:0px;
-                    padding-left:5px ;
-                    padding-right:5px ; 
+                    display: flex;
+                    justify-content: center; 
                 }
             
                 .text_baldur{
-                    padding-left: 20px;
-                    padding-right: 5px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                     text-align: center;
             
                     .nombre{
                         font-size: 25px;
-                        padding-top: 5px;
+                        padding-top: 10px;
                         color: white;
                         font-family: 'Abril Fatface', cursive;
                     }
                     
                     .text__1{
-                        font-size: 10px;
+                        font-size: 14px;
                         padding-top: 2px;
                         font-family: 'Indie Flower', cursive;color: white;
             
@@ -2385,8 +2376,8 @@
             .contenedor_freya{
                 background-color: black;
                 display: flex;
-                margin-left: 200px;
-                max-width: 80%;
+                margin-left: 400px;
+                max-width: 45%;
                 margin-top: 50px;
                 margin-bottom: 50px;
                 animation-name: animacion2;
@@ -2402,26 +2393,25 @@
                     }
             
                     .img-freya{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
             
                     .text_freya{
-                        padding-left: 20px;
+                        padding-left: 10px;
+                        padding-right: 10px;
                         text-align: center;
             
                         .nombre2{
                             font-size: 25px;
-                            padding-top: 5px;
+                            padding-top: 2px;
                             color: white;
                             font-family: 'Abril Fatface', cursive;
                             
                         }
                         
                         .text__2{
-                            font-size: 10px;
+                            font-size: 14px;
                             padding-top: 2px;
                             padding-right: 5px;
                             font-family: 'Indie Flower', cursive;
@@ -2435,7 +2425,7 @@
                 background-color: black;
                 display: flex;
                 margin-left: 50px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-top: 20px;
                 margin-bottom:20px ;
                 animation-name: animacion3;
@@ -2451,28 +2441,27 @@
                 }
             
                 .img-magni{
-                    padding-top:5px ;
-                    padding-bottom:0px;
-                    padding-left:5px ;
-                    padding-right:5px ; 
+                    display: flex;
+                    justify-content: center;
                 }
             
                 .text_magni{
-                    padding-left: 10px;
-                    padding-right: 5px;
+                    padding-left: 15px;
+                    padding-right: 15px;
                     text-align: center;
     
                     .nombre3{
                         font-size: 25px;
-                        padding-top: 2px;
+                        padding-top: 5px;
                         color: white;
                         font-family: 'Abril Fatface', cursive;
                     }
             
                     .text__3{
-                        font-size: 8px;
-                        padding-top: 2px;
-                        padding-left: 40px;
+                        font-size: 12px;
+                        padding-top: 5px;
+                        padding-left: 20px;
+                        padding-right: 20px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                     }
@@ -2483,8 +2472,8 @@
             .contenedor_thor{
                 background-color: black;
                 display: flex;
-                margin-left: 200px;
-                max-width: 80%;
+                margin-left: 400px;
+                max-width: 45%;
                 margin-top: 50px;
                 margin-bottom: 50px;
                 animation-name: animacion4;
@@ -2500,14 +2489,12 @@
                     }
             
                     .img-thor{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
                     
                     .text_thor{
-                        padding-left: 5px;
+                        padding-left: px;
                         text-align: center;
             
                         .nombre4{
@@ -2518,9 +2505,10 @@
                         }
                         
                         .text__4{
-                            font-size: 8px;
+                            font-size: 12px;
                             padding-top: 2px;
-                            padding-right: 7px;
+                            padding-right: 20px;
+                            padding-left: 20px;
                             font-family: 'Indie Flower', cursive;
                             color: white;
                         }
@@ -2530,8 +2518,8 @@
             .contenedor_mimir{
                 background-color: black;
                 display: flex;
-                margin-left: 3rem;
-                max-width: 80%;
+                margin-left: 50px;
+                max-width: 45%;
                 margin-bottom: 50px;
                 animation-name: animacion5;
                 animation-duration: 2s;
@@ -2546,14 +2534,13 @@
                     }
             
                     .img-mimir{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
                     
                     .text_mimir{
-                        padding-left: 5px;
+                        padding-left: 20px;
+                        padding-right: 20px;
                         text-align: center;
             
                         .nombre5{
@@ -2564,9 +2551,10 @@
                         }
                         
                         .text__5{
-                            font-size: 8px;
+                            font-size: 12px;
                             padding-top: 2px;
-                            padding-right: 3px;
+                            padding-right: 20px;
+                            padding-left: 20px;
                             font-family: 'Indie Flower', cursive;
                             color: white;
                         }
@@ -3029,7 +3017,7 @@
             }
         
             .fotitos2{
-                width: 150px;
+                width: 200px;
             }
         
         
@@ -3037,7 +3025,7 @@
                 background-color: black;
                 display: flex;
                 margin-left: 30px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-top: 10px;
                 margin-bottom:20px ;
                 animation-name: animacion1;
@@ -3059,26 +3047,24 @@
                 }
             
                 .img-baldur{
-                    padding-top:5px ;
-                    padding-bottom:0px;
-                    padding-left:5px ;
-                    padding-right:5px ; 
+                    display: flex;
+                    justify-content: center;
                 }
             
                 .text_baldur{
-                    padding-left: 38px;
-                    padding-right: 0px;
+                    padding-left: 5px;
+                    padding-right: 5px;
                     text-align: center;
             
                     .nombre{
                         font-size: 15px;
-                        padding-top: 5px;
+                        padding-top: 10px;
                         color: white;
                         font-family: 'Abril Fatface', cursive;
                     }
                     
                     .text__1{
-                        font-size: 7px;
+                        font-size: 10px;
                         padding-top: 10px;
                         font-family: 'Indie Flower', cursive;color: white;
             
@@ -3089,8 +3075,8 @@
             .contenedor_freya{
                 background-color: black;
                 display: flex;
-                margin-left: 170px;
-                max-width: 80%;
+                margin-left: 250px;
+                max-width: 45%;
                 margin-top: 0px;
                 margin-bottom: 20px;
                 animation-name: animacion2;
@@ -3106,26 +3092,25 @@
                     }
             
                     .img-freya{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                       display: flex;
+                       justify-content: center;
                     }
             
                     .text_freya{
-                        padding-left: 20px;
+                        padding-left: 10px;
+                        padding-right: 10px;
                         text-align: center;
             
                         .nombre2{
                             font-size: 15px;
-                            padding-top: 5px;
+                            padding-top: 2px;
                             color: white;
                             font-family: 'Abril Fatface', cursive;
                             
                         }
                         
                         .text__2{
-                            font-size: 7px;
+                            font-size: 10px;
                             padding-top: 10px;
                             padding-right: 5px;
                             font-family: 'Indie Flower', cursive;
@@ -3139,7 +3124,7 @@
                 background-color: black;
                 display: flex;
                 margin-left: 30px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-top: 20px;
                 margin-bottom:20px ;
                 animation-name: animacion3;
@@ -3155,10 +3140,8 @@
                 }
             
                 .img-magni{
-                    padding-top:5px ;
-                    padding-bottom:0px;
-                    padding-left:5px ;
-                    padding-right:5px ; 
+                    display: flex;
+                    justify-content: center; 
                 }
             
                 .text_magni{
@@ -3168,13 +3151,13 @@
                     .nombre3{
                         font-size: 15px;
                         padding-top: 5px;
-                        padding-left: 70px;
+                        padding-left: 0px;
                         color: white;
                         font-family: 'Abril Fatface', cursive;
                     }
             
                     .text__3{
-                        font-size: 7px;
+                        font-size: 10px;
                         padding-top: 5px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
@@ -3186,8 +3169,8 @@
             .contenedor_thor{
                 background-color: black;
                 display: flex;
-                margin-left: 170px;
-                max-width: 80%;
+                margin-left: 250px;
+                max-width: 45%;
                 margin-top: 0px;
                 margin-bottom: 20px;
                 animation-name: animacion4;
@@ -3203,10 +3186,8 @@
                     }
             
                     .img-thor{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
                     
                     .text_thor{
@@ -3221,9 +3202,9 @@
                         }
                         
                         .text__4{
-                            font-size: 6px;
+                            font-size: 10px;
                             padding-top: 5px;
-                            padding-right: 7px;
+                            padding-right: 0px;
                             font-family: 'Indie Flower', cursive;
                             color: white;
                         }
@@ -3234,7 +3215,7 @@
                 background-color: black;
                 display: flex;
                 margin-left: 30px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-bottom: 20px;
                 animation-name: animacion5;
                 animation-duration: 2s;
@@ -3249,10 +3230,8 @@
                     }
             
                     .img-mimir{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
                     
                     .text_mimir{
@@ -3267,7 +3246,7 @@
                         }
                         
                         .text__5{
-                            font-size: 6px;
+                            font-size: 10px;
                             padding-top: 10px;
                             padding-right: 3px;
                             font-family: 'Indie Flower', cursive;
@@ -3730,7 +3709,7 @@
             }
         
             .fotitos2{
-                width: 100px;
+                width: 150px;
             }
         
         
@@ -3738,7 +3717,7 @@
                 background-color: black;
                 display: flex;
                 margin-left:20px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-top: 5px;
                 margin-bottom:15px ;
                 animation-name: animacion1;
@@ -3760,15 +3739,13 @@
                 }
             
                 .img-baldur{
-                    padding-top:5px ;
-                    padding-bottom:0px;
-                    padding-left:5px ;
-                    padding-right:5px ; 
+                    display: flex;
+                    justify-content: center;
                 }
             
                 .text_baldur{
-                    padding-left: 35px;
-                    padding-right: 0px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                     text-align: center;
             
                     .nombre{
@@ -3779,7 +3756,7 @@
                     }
                     
                     .text__1{
-                        font-size: 5px;
+                        font-size: 7px;
                         padding-top: 5px;
                         font-family: 'Indie Flower', cursive;color: white;
             
@@ -3790,8 +3767,8 @@
             .contenedor_freya{
                 background-color: black;
                 display: flex;
-                margin-left: 130px;
-                max-width: 80%;
+                margin-left: 190px;
+                max-width: 45%;
                 margin-top: 0px;
                 margin-bottom: 15px;
                 animation-name: animacion2;
@@ -3807,18 +3784,17 @@
                     }
             
                     .img-freya{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
             
                     .text_freya{
-                        padding-left: 15px;
+                        padding-left: 10px;
+                        padding-right: 10px;
                         text-align: center;
             
                         .nombre2{
-                            font-size: 10px;
+                            font-size: 15px;
                             padding-top: 5px;
                             color: white;
                             font-family: 'Abril Fatface', cursive;
@@ -3826,7 +3802,7 @@
                         }
                         
                         .text__2{
-                            font-size: 5px;
+                            font-size: 8px;
                             padding-top: 6px;
                             padding-right: 5px;
                             font-family: 'Indie Flower', cursive;
@@ -3840,7 +3816,7 @@
                 background-color: black;
                 display: flex;
                 margin-left: 20px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-top: 0px;
                 margin-bottom:15px ;
                 animation-name: animacion3;
@@ -3856,10 +3832,8 @@
                 }
             
                 .img-magni{
-                    padding-top:5px ;
-                    padding-bottom:0px;
-                    padding-left:5px ;
-                    padding-right:5px ; 
+                    display: flex;
+                    justify-content: center;
                 }
             
                 .text_magni{
@@ -3868,17 +3842,17 @@
                     text-align: center;
     
                     .nombre3{
-                        font-size: 10px;
+                        font-size: 15px;
                         padding-top: 5px;
-                        padding-left: 40px;
+                        padding-left: 0px;
                         color: white;
                         font-family: 'Abril Fatface', cursive;
                     }
             
                     .text__3{
-                        font-size: 5px;
+                        font-size: 7px;
                         padding-top: 5px;
-                        padding-left: 40px;
+                        padding-left: 10px;
                         font-family: 'Indie Flower', cursive;
                         color: white;
                     }
@@ -3889,8 +3863,8 @@
             .contenedor_thor{
                 background-color: black;
                 display: flex;
-                margin-left: 130px;
-                max-width: 80%;
+                margin-left: 190px;
+                max-width: 45%;
                 margin-top: 0px;
                 margin-bottom: 15px;
                 animation-name: animacion4;
@@ -3906,27 +3880,26 @@
                     }
             
                     .img-thor{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
                     
                     .text_thor{
-                        padding-left: 5px;
+                        padding-left: 0px;
                         text-align: center;
             
                         .nombre4{
-                            font-size: 10px;
+                            font-size: 15px;
                             padding-top: 5px;
+                            padding-left: 10px;
                             color: white;
                             font-family: 'Abril Fatface', cursive;
                         }
                         
                         .text__4{
-                            font-size: 5px;
+                            font-size: 6px;
                             padding-top: 2px;
-                            padding-right:7px;
+                            padding-right:0px;
                             font-family: 'Indie Flower', cursive;
                             color: white;
                         }
@@ -3937,7 +3910,7 @@
                 background-color: black;
                 display: flex;
                 margin-left: 20px;
-                max-width: 80%;
+                max-width: 45%;
                 margin-bottom: 15px;
                 animation-name: animacion5;
                 animation-duration: 2s;
@@ -3952,10 +3925,8 @@
                     }
             
                     .img-mimir{
-                        padding-top:5px ;
-                        padding-bottom:0px;
-                        padding-left:5px ;
-                        padding-right:5px ; 
+                        display: flex;
+                        justify-content: center;
                     }
                     
                     .text_mimir{
@@ -3963,14 +3934,15 @@
                         text-align: center;
             
                         .nombre5{
-                            font-size: 10px;
+                            font-size: 15px;
                             padding-top: 5px;
+                            padding-left: 10px;
                             color: white;
                             font-family: 'Abril Fatface', cursive;
                         }
                         
                         .text__5{
-                            font-size: 5px;
+                            font-size: 7px;
                             padding-top: 5px;
                             padding-right: 3px;
                             font-family: 'Indie Flower', cursive;
