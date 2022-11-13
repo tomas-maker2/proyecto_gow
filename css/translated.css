@@ -1212,7 +1212,7 @@ h1 {
       header .navbar .navbar__titulo {
         display: inline-block;
         font-size: 40px;
-        padding-left: 0rem;
+        padding-left: 1rem;
         margin: 30px;
         font-family: 'Libre Baskerville', serif;
         color: white;
@@ -1235,7 +1235,7 @@ h1 {
           color: #CCC8C8;
           text-decoration: none;
           font-size: 20px;
-          padding-right: 10px;
+          padding-right: 20px;
           margin: 3px;
           font-family: 'Gloria Hallelujah', cursive;
           transition-property: color;
